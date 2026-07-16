@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:42:49.402290+00:00",
+  "generated_at": "2026-07-16T10:55:25.283056+00:00",
   "source_posts_analyzed": 325,
   "ideas": [
     {
@@ -8,6 +8,9 @@
       "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
       "format": "пост",
       "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 55,
       "evidence": [
         {
@@ -30,6 +33,12 @@
       "angle": "Скрипт ответа + 3 конкретных способа показать ценность, которую нейросеть не заменит",
       "format": "карусель",
       "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Claude",
+        "ChatGPT"
+      ],
+      "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
       "signal_count": 44,
       "evidence": [
         {
@@ -52,6 +61,9 @@
       "angle": "Промпт-фреймворк для важных решений: роли, углы, стресс-тест. Работает для инвестиций, найма, запуска продукта",
       "format": "карусель",
       "cta": "ЗАЯВКИ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 28,
       "evidence": [
         {
@@ -69,11 +81,72 @@
       ]
     },
     {
+      "theme": "perplexity-исследование",
+      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
+      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
+      "format": "пост",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Perplexity",
+        "Claude",
+        "Exa.ai"
+      ],
+      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
+      "signal_count": 12,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Claude's referral traffic grew 386% in 4 months—but the more interesting story is what people are us",
+          "date": "2026-06-04",
+          "relevance": 5
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "Claude's referral traffic grew 386% in 4 months—but the more interesting story is what people are us",
+          "date": "2026-06-04",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "первый-результат-новичок",
+      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
+      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Новички",
+      "tools": [
+        "Claude",
+        "Zapier",
+        "Notion"
+      ],
+      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "signal_count": 4,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "I posted about using ChatGPT as therapy got 100K views and 250 dollars in preorders then the App Sto",
+          "date": "2026-06-06",
+          "relevance": 6
+        },
+        {
+          "source": "r/Entrepreneur",
+          "title": "Successful entrepreneurs, what is your AI stack looking like today?",
+          "date": "2026-06-22",
+          "relevance": 6
+        }
+      ]
+    },
+    {
       "theme": "клей-между-инструментами",
       "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
       "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
       "format": "пост",
       "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 4,
       "evidence": [
         {
@@ -91,11 +164,73 @@
       ]
     },
     {
+      "theme": "notion-база-знаний",
+      "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
+      "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Эксперты / контентщики",
+      "tools": [
+        "Notion AI",
+        "Claude",
+        "Readwise"
+      ],
+      "structure": "1. Где люди хранят знания (и почему это проблема). 2. Структура базы (4 раздела). 3. Как Notion AI ищет по ней. 4. Шаблон для быстрого старта",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "How do you keep your Claude conversations organized?",
+          "date": "2026-06-07",
+          "relevance": 5
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "That's how I use automations and apps to make my job easier. Wow you do it?",
+          "date": "2026-06-10",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "локальные-модели",
+      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
+      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Ollama",
+        "LM Studio",
+        "Mistral",
+        "Llama 3"
+      ],
+      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/LocalLLaMA",
+          "title": "We Open Sourced Our LLM-based QA Agent To Catch Breakages Faster",
+          "date": "2026-06-16",
+          "relevance": 5
+        },
+        {
+          "source": "r/LocalLLaMA",
+          "title": "LocalAIMaxxing - I analyzed 2.3k local AI Apps to find the best in each category",
+          "date": "2026-07-02",
+          "relevance": 6
+        }
+      ]
+    },
+    {
       "theme": "5-советников",
       "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
       "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
       "format": "карусель",
       "cta": "ЗАЯВКИ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 2,
       "evidence": [
         {
@@ -118,6 +253,9 @@
       "angle": "Конкретный кейс: custom instructions под healthcare, legal, e-commerce. Клиенты думают, что он специализируется на их нише. Как повторить",
       "format": "карусель",
       "cta": "ЗАЯВКИ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 2,
       "evidence": [
         {
@@ -135,11 +273,91 @@
       ]
     },
     {
+      "theme": "агент-ночью",
+      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
+      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Claude API",
+        "Telegram Bot",
+        "Google Sheets"
+      ],
+      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
+          "date": "2026-07-11",
+          "relevance": 5
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
+          "date": "2026-07-11",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "gamma-презентации",
+      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
+      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
+      "format": "рилс",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Gamma",
+        "Claude",
+        "Beautiful.ai"
+      ],
+      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "What is up with skills in ChatGPT? (PowerPoint Creation from Template)",
+          "date": "2026-06-03",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "n8n-автоматизация",
+      "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
+      "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Claude API",
+        "Telegram",
+        "Airtable"
+      ],
+      "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "The No-Code Stack is Splitting: Visual Workflows (Make/n8n) vs. Full-Stack AI Prompting (Architect/L",
+          "date": "2026-06-03",
+          "relevance": 6
+        }
+      ]
+    },
+    {
       "theme": "seo-ии",
       "title": "Один человек, ноль SEO-команды → 1,5 млн органики за 3 месяца через Claude",
       "angle": "Конкретный процесс: Search Console → Claude → контент под пробелы → публикация. Реальные цифры, реальные шаги",
       "format": "карусель",
       "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 1,
       "evidence": [
         {
@@ -151,11 +369,37 @@
       ]
     },
     {
+      "theme": "zapier-make-n8n",
+      "title": "Zapier vs Make vs n8n: честный выбор без маркетинга для бизнеса без DevOps",
+      "angle": "Предприниматель/специалист не знает что выбрать для автоматизации. Конкретные сценарии: какой инструмент под какую задачу, сравнение по цене и порогу входа",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Zapier",
+        "Make (Integromat)",
+        "n8n"
+      ],
+      "structure": "1. Таблица сравнения (цена/сложность/возможности). 2. Сценарий A: лид-менеджмент — что выбрать. 3. Сценарий B: контент-автоматизация — что выбрать. 4. Правило выбора за 30 секунд",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Local AI meetup in Southlake TX",
+          "date": "2026-06-05",
+          "relevance": 5
+        }
+      ]
+    },
+    {
       "theme": "solo-с-ии",
       "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
       "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
       "format": "карусель",
       "cta": "ЛИДЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
       "signal_count": 1,
       "evidence": [
         {
@@ -163,6 +407,54 @@
           "title": "How would you get the first 100 beta users for an email marketing SaaS?",
           "date": "2026-06-07",
           "relevance": 6
+        }
+      ]
+    },
+    {
+      "theme": "ai-hr-наём",
+      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
+      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude",
+        "n8n",
+        "Airtable",
+        "Notion"
+      ],
+      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "I built a 16-step multi-agent content pipeline. Claude runs the writing and reasoning agents. Here i",
+          "date": "2026-06-08",
+          "relevance": 6
+        }
+      ]
+    },
+    {
+      "theme": "мониторинг-конкурентов",
+      "title": "Как я мониторю 12 конкурентов одновременно — агент делает это ночью, я смотрю утром",
+      "angle": "Предприниматель/маркетолог делает мониторинг вручную или не делает вообще. Агентская связка: Apify парсит — Claude анализирует — Telegram присылает дайджест",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Apify",
+        "Claude",
+        "Telegram Bot API"
+      ],
+      "structure": "1. Что мониторить (цены, акции, контент, найм). 2. Схема агента (визуально). 3. Пример утреннего дайджеста (скрин). 4. Как запустить за 1 вечер",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "Help!! Building my first product after getting fired. I come from a non-technical and I need you fee",
+          "date": "2026-06-10",
+          "relevance": 5
         }
       ]
     }
