@@ -440,9 +440,12 @@ function buildTopics(data) {
     'Новички':                  '#10b981',
   };
   document.getElementById('topics-grid').innerHTML = ideas.map(idea => {
-    const ev = (idea.evidence||[]).map(e=>
-      `<div>📌 ${e.source} [${e.date}]: ${e.title}</div>`
-    ).join('');
+    const ev = (idea.evidence||[]).map(e=>{
+      const inner = `📌 ${e.source} [${e.date}]: ${e.title}`;
+      return e.url
+        ? `<div><a href="${e.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${inner}</a></div>`
+        : `<div>${inner}</div>`;
+    }).join('');
     const toolsHtml = (idea.tools||[]).map(t=>
       `<span style="background:rgba(255,255,255,.08);border-radius:4px;padding:1px 6px;font-size:10px">${t}</span>`
     ).join(' ');
