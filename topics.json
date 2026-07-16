@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:55:25.283056+00:00",
+  "generated_at": "2026-07-16T10:58:39.579509+00:00",
   "source_posts_analyzed": 325,
   "ideas": [
     {
@@ -17,13 +17,15 @@
           "source": "r/ClaudeAI",
           "title": "I spent 5 months trying to make Claude actually act like a personal assistant. Here's what finally w",
           "date": "2026-06-03",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvsg71/i_spent_5_months_trying_to_make_claude_actually/"
         },
         {
           "source": "r/Entrepreneur",
           "title": "A lesson that everyone is told but i still had to learn the hard way",
           "date": "2026-06-03",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tvjcii/a_lesson_that_everyone_is_told_but_i_still_had_to/"
         }
       ]
     },
@@ -45,13 +47,15 @@
           "source": "r/smallbusiness",
           "title": "Anyone else in a super niche B2B industry struggling with marketing agencies?",
           "date": "2026-06-04",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tweme0/anyone_else_in_a_super_niche_b2b_industry/"
         },
         {
           "source": "r/ClaudeAI",
           "title": "I tested GPT-5.5 vs Opus 4.8 on agentic terminal coding (Terminal-Bench 2.1)",
           "date": "2026-06-04",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1twmqxk/i_tested_gpt55_vs_opus_48_on_agentic_terminal/"
         }
       ]
     },
@@ -70,13 +74,15 @@
           "source": "r/SideProject",
           "title": "Built a platform where people share failures and lessons through text and voice stories",
           "date": "2026-06-03",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/SideProject/comments/1tvtem3/built_a_platform_where_people_share_failures_and/"
         },
         {
           "source": "r/smallbusiness",
           "title": "What’s one purchase under $100 that made running your business easier?",
           "date": "2026-06-04",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1twzxec/whats_one_purchase_under_100_that_made_running/"
         }
       ]
     },
@@ -99,13 +105,15 @@
           "source": "r/ClaudeAI",
           "title": "Claude's referral traffic grew 386% in 4 months—but the more interesting story is what people are us",
           "date": "2026-06-04",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1twhqty/claudes_referral_traffic_grew_386_in_4_monthsbut/"
         },
         {
           "source": "r/ClaudeAI",
           "title": "Claude's referral traffic grew 386% in 4 months—but the more interesting story is what people are us",
           "date": "2026-06-04",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1twhqty/claudes_referral_traffic_grew_386_in_4_monthsbut/"
         }
       ]
     },
@@ -128,13 +136,15 @@
           "source": "r/ChatGPT",
           "title": "I posted about using ChatGPT as therapy got 100K views and 250 dollars in preorders then the App Sto",
           "date": "2026-06-06",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1tysaav/i_posted_about_using_chatgpt_as_therapy_got_100k/"
         },
         {
           "source": "r/Entrepreneur",
           "title": "Successful entrepreneurs, what is your AI stack looking like today?",
           "date": "2026-06-22",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1ucg3ku/successful_entrepreneurs_what_is_your_ai_stack/"
         }
       ]
     },
@@ -153,13 +163,15 @@
           "source": "r/artificial",
           "title": "Feel like I'm becoming the glue between many AI tools",
           "date": "2026-06-08",
-          "relevance": 9
+          "relevance": 9,
+          "url": "https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/"
         },
         {
           "source": "r/artificial",
           "title": "Feel like I'm becoming the glue between many AI tools",
           "date": "2026-06-08",
-          "relevance": 9
+          "relevance": 9,
+          "url": "https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/"
         }
       ]
     },
@@ -182,13 +194,15 @@
           "source": "r/ClaudeAI",
           "title": "How do you keep your Claude conversations organized?",
           "date": "2026-06-07",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tz77wq/how_do_you_keep_your_claude_conversations/"
         },
         {
           "source": "r/ChatGPT",
           "title": "That's how I use automations and apps to make my job easier. Wow you do it?",
           "date": "2026-06-10",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u23vv2/thats_how_i_use_automations_and_apps_to_make_my/"
         }
       ]
     },
@@ -212,13 +226,15 @@
           "source": "r/LocalLLaMA",
           "title": "We Open Sourced Our LLM-based QA Agent To Catch Breakages Faster",
           "date": "2026-06-16",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7k35g/we_open_sourced_our_llmbased_qa_agent_to_catch/"
         },
         {
           "source": "r/LocalLLaMA",
           "title": "LocalAIMaxxing - I analyzed 2.3k local AI Apps to find the best in each category",
           "date": "2026-07-02",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqdvo/localaimaxxing_i_analyzed_23k_local_ai_apps_to/"
         }
       ]
     },
@@ -237,13 +253,15 @@
           "source": "r/SideProject",
           "title": "i got tired of asking chatgpt for big decisions and getting one confident answer, so i built a thing",
           "date": "2026-06-04",
-          "relevance": 7
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/SideProject/comments/1twwajs/i_got_tired_of_asking_chatgpt_for_big_decisions/"
         },
         {
           "source": "r/ClaudeAI",
           "title": "How I use multiple claude agents to get more stuff done efficiently",
           "date": "2026-06-05",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txlv8o/how_i_use_multiple_claude_agents_to_get_more/"
         }
       ]
     },
@@ -262,13 +280,15 @@
           "source": "r/ClaudeAI",
           "title": "4 claude custom styles for 4 industries. the vocabulary switching eliminated the \"generic consultant",
           "date": "2026-06-05",
-          "relevance": 7
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txd336/4_claude_custom_styles_for_4_industries_the/"
         },
         {
           "source": "r/ChatGPT",
           "title": "Is there a reason for ChatGPT always agreeing with me? How to change that?",
           "date": "2026-06-27",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugt37u/is_there_a_reason_for_chatgpt_always_agreeing/"
         }
       ]
     },
@@ -292,13 +312,15 @@
           "source": "r/ChatGPT",
           "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
           "date": "2026-07-11",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
         },
         {
           "source": "r/ChatGPT",
           "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
           "date": "2026-07-11",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
         }
       ]
     },
@@ -321,7 +343,8 @@
           "source": "r/ChatGPT",
           "title": "What is up with skills in ChatGPT? (PowerPoint Creation from Template)",
           "date": "2026-06-03",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1tvu9wk/what_is_up_with_skills_in_chatgpt_powerpoint/"
         }
       ]
     },
@@ -345,7 +368,8 @@
           "source": "r/SideProject",
           "title": "The No-Code Stack is Splitting: Visual Workflows (Make/n8n) vs. Full-Stack AI Prompting (Architect/L",
           "date": "2026-06-03",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/SideProject/comments/1tw0v4m/the_nocode_stack_is_splitting_visual_workflows/"
         }
       ]
     },
@@ -364,7 +388,8 @@
           "source": "r/ClaudeAI",
           "title": "Claude is my entire SEO team. 1.5M+ impressions in 3 months as a solo founder.",
           "date": "2026-06-03",
-          "relevance": 8
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvjjdj/claude_is_my_entire_seo_team_15m_impressions_in_3/"
         }
       ]
     },
@@ -387,7 +412,8 @@
           "source": "r/ClaudeAI",
           "title": "Local AI meetup in Southlake TX",
           "date": "2026-06-05",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txyhz7/local_ai_meetup_in_southlake_tx/"
         }
       ]
     },
@@ -406,7 +432,8 @@
           "source": "r/SideProject",
           "title": "How would you get the first 100 beta users for an email marketing SaaS?",
           "date": "2026-06-07",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/SideProject/comments/1tz90zs/how_would_you_get_the_first_100_beta_users_for_an/"
         }
       ]
     },
@@ -430,7 +457,8 @@
           "source": "r/ClaudeAI",
           "title": "I built a 16-step multi-agent content pipeline. Claude runs the writing and reasoning agents. Here i",
           "date": "2026-06-08",
-          "relevance": 6
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0araf/i_built_a_16step_multiagent_content_pipeline/"
         }
       ]
     },
@@ -454,7 +482,8 @@
           "source": "r/SideProject",
           "title": "Help!! Building my first product after getting fired. I come from a non-technical and I need you fee",
           "date": "2026-06-10",
-          "relevance": 5
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1u2cjc6/help_building_my_first_product_after_getting/"
         }
       ]
     }
