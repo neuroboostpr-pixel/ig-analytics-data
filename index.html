@@ -176,7 +176,7 @@ input[type=text]:focus{border-color:var(--accent)}
             <th data-col="likes" class="num">Лайки</th>
             <th data-col="comments" class="num">Комм.</th>
             <th data-col="er" class="num">ER%</th>
-            <th data-col="avg_watch_sec" class="num">Watch</th>
+            <th data-col="avg_watch_sec" class="num" title="Рилс: avg watch time (сек). Карусель: save rate % (прокси удержания)">Watch / 💾%</th>
             <th>Ссылка</th>
           </tr>
         </thead>
@@ -433,18 +433,37 @@ function buildTopics(data) {
     'Из ' + data.source_posts_analyzed + ' постов дайджестов · ' +
     gen.toLocaleDateString('ru', {day:'2-digit',month:'2-digit'});
   const fmtClass = {карусель:'fmt-карусель',пост:'fmt-пост',рилс:'fmt-рилс'};
+  const segColors = {
+    'Предприниматели':          '#6366f1',
+    'Специалисты / фрилансеры': '#0ea5e9',
+    'Эксперты / контентщики':   '#f59e0b',
+    'Новички':                  '#10b981',
+  };
   document.getElementById('topics-grid').innerHTML = ideas.map(idea => {
     const ev = (idea.evidence||[]).map(e=>
-      `<div>📌 r/${e.source.replace('r/','')} [${e.date}]: ${e.title}</div>`
+      `<div>📌 ${e.source} [${e.date}]: ${e.title}</div>`
     ).join('');
+    const toolsHtml = (idea.tools||[]).map(t=>
+      `<span style="background:rgba(255,255,255,.08);border-radius:4px;padding:1px 6px;font-size:10px">${t}</span>`
+    ).join(' ');
+    const segColor = segColors[idea.segment] || 'var(--muted)';
+    const segHtml = idea.segment
+      ? `<span style="font-size:10px;color:${segColor};font-weight:600">● ${idea.segment}</span>`
+      : '';
+    const structureHtml = idea.structure
+      ? `<div class="topic-evidence" style="margin-top:8px;font-size:11px;color:var(--text)">${idea.structure}</div>`
+      : '';
     return `<div class="rec-card">
-      <div style="margin-bottom:8px">
+      <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap">
         <span class="fmt-badge ${fmtClass[idea.format]||''}">${idea.format}</span>
         <span class="cta-badge">${idea.cta}</span>
-        <span style="font-size:10px;color:var(--muted);margin-left:4px">${idea.signal_count} сигналов</span>
+        <span style="font-size:10px;color:var(--muted)">${idea.signal_count} сигн.</span>
+        ${segHtml}
       </div>
       <div class="rec-title">${idea.title}</div>
       <div class="rec-body" style="margin-top:6px">${idea.angle}</div>
+      ${toolsHtml ? '<div style="margin-top:8px;display:flex;gap:4px;flex-wrap:wrap">'+toolsHtml+'</div>' : ''}
+      ${structureHtml}
       ${ev ? '<div class="topic-evidence">'+ev+'</div>' : ''}
     </div>`;
   }).join('');
@@ -492,7 +511,7 @@ function renderTable() {
       <td class="num ${erCls}" title="ER = (лайки+комм+сохр+репосты)/охват">
         ${fmtP(p.er)}<div class="er-bar" style="width:${barW}px"></div>
       </td>
-      <td class="num">${p.avg_watch_sec ? p.avg_watch_sec+'s' : (t==='CAROUSEL' ? '<span title="Метрика недоступна для каруселей в Instagram API" style="color:var(--muted);font-size:10px">н/д API</span>' : '—')}</td>
+      <td class="num">${p.avg_watch_sec ? p.avg_watch_sec+'s' : (t==='CAROUSEL' ? '<span title="Watch time недоступен для каруселей в API. Прокси удержания — save rate: сколько % охвата сохранили пост" style="color:var(--accent);font-size:11px">'+(p.save_rate||0).toFixed(1)+'% 💾</span>' : '—')}</td>
       <td>${p.permalink ? '<a href="'+p.permalink+'" target="_blank">→</a>' : '—'}</td>
     </tr>`;
   }).join('');
