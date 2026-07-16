@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-07-16T10:42:49.402290+00:00",
+  "source_posts_analyzed": 325,
+  "ideas": [
+    {
+      "theme": "автоматизация-продаж",
+      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
+      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "signal_count": 55,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "I spent 5 months trying to make Claude actually act like a personal assistant. Here's what finally w",
+          "date": "2026-06-03",
+          "relevance": 5
+        },
+        {
+          "source": "r/Entrepreneur",
+          "title": "A lesson that everyone is told but i still had to learn the hard way",
+          "date": "2026-06-03",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "рост-чека",
+      "title": "Как ИИ помогает фрилансеру держать чек, когда клиенты говорят «ChatGPT это сам сделает»",
+      "angle": "Скрипт ответа + 3 конкретных способа показать ценность, которую нейросеть не заменит",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "signal_count": 44,
+      "evidence": [
+        {
+          "source": "r/smallbusiness",
+          "title": "Anyone else in a super niche B2B industry struggling with marketing agencies?",
+          "date": "2026-06-04",
+          "relevance": 5
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "I tested GPT-5.5 vs Opus 4.8 on agentic terminal coding (Terminal-Bench 2.1)",
+          "date": "2026-06-04",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "ai-для-решений",
+      "title": "5 советников вместо одного ChatGPT: как принимать решения без галлюцинаций",
+      "angle": "Промпт-фреймворк для важных решений: роли, углы, стресс-тест. Работает для инвестиций, найма, запуска продукта",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "signal_count": 28,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "Built a platform where people share failures and lessons through text and voice stories",
+          "date": "2026-06-03",
+          "relevance": 6
+        },
+        {
+          "source": "r/smallbusiness",
+          "title": "What’s one purchase under $100 that made running your business easier?",
+          "date": "2026-06-04",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "клей-между-инструментами",
+      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
+      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "signal_count": 4,
+      "evidence": [
+        {
+          "source": "r/artificial",
+          "title": "Feel like I'm becoming the glue between many AI tools",
+          "date": "2026-06-08",
+          "relevance": 9
+        },
+        {
+          "source": "r/artificial",
+          "title": "Feel like I'm becoming the glue between many AI tools",
+          "date": "2026-06-08",
+          "relevance": 9
+        }
+      ]
+    },
+    {
+      "theme": "5-советников",
+      "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
+      "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "i got tired of asking chatgpt for big decisions and getting one confident answer, so i built a thing",
+          "date": "2026-06-04",
+          "relevance": 7
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "How I use multiple claude agents to get more stuff done efficiently",
+          "date": "2026-06-05",
+          "relevance": 6
+        }
+      ]
+    },
+    {
+      "theme": "кастомные-стили",
+      "title": "Как один консультант зарабатывает $24k/мес — через кастомные стили Claude под каждую нишу",
+      "angle": "Конкретный кейс: custom instructions под healthcare, legal, e-commerce. Клиенты думают, что он специализируется на их нише. Как повторить",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "4 claude custom styles for 4 industries. the vocabulary switching eliminated the \"generic consultant",
+          "date": "2026-06-05",
+          "relevance": 7
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Is there a reason for ChatGPT always agreeing with me? How to change that?",
+          "date": "2026-06-27",
+          "relevance": 5
+        }
+      ]
+    },
+    {
+      "theme": "seo-ии",
+      "title": "Один человек, ноль SEO-команды → 1,5 млн органики за 3 месяца через Claude",
+      "angle": "Конкретный процесс: Search Console → Claude → контент под пробелы → публикация. Реальные цифры, реальные шаги",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Claude is my entire SEO team. 1.5M+ impressions in 3 months as a solo founder.",
+          "date": "2026-06-03",
+          "relevance": 8
+        }
+      ]
+    },
+    {
+      "theme": "solo-с-ии",
+      "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
+      "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "How would you get the first 100 beta users for an email marketing SaaS?",
+          "date": "2026-06-07",
+          "relevance": 6
+        }
+      ]
+    }
+  ]
+}
