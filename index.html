@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instagram Analytics — @bezikovkirilll</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0f1117;--card:#1a1d27;--card2:#222536;--border:#2d3148;--accent:#6c63ff;--accent2:#ff6584;--green:#22c55e;--yellow:#f59e0b;--text:#e2e8f0;--muted:#8892a4;--red:#ef4444}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:1.5rem;font-weight:700}h2{font-size:1.1rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.header{padding:24px 32px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.header-left{display:flex;align-items:center;gap:12px}
+.badge{background:var(--accent);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:600}
+.updated{color:var(--muted);font-size:12px}
+.main{padding:24px 32px;max-width:1600px;margin:0 auto}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-bottom:28px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+.kpi-label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.kpi-value{font-size:1.6rem;font-weight:700}
+.kpi-sub{color:var(--muted);font-size:11px;margin-top:2px}
+.green{color:var(--green)}.yellow{color:var(--yellow)}.red{color:var(--red)}.accent{color:var(--accent)}
+.section{margin-bottom:32px}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:900px){.grid2{grid-template-columns:1fr}}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px}
+.chart-card h3{font-size:.9rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px}
+.top-list{display:flex;flex-direction:column;gap:8px}
+.top-item{background:var(--card2);border-radius:8px;padding:12px 14px;display:flex;align-items:center;gap:10px}
+.top-rank{font-size:1.1rem;font-weight:700;color:var(--muted);min-width:24px}
+.top-meta{flex:1;min-width:0}
+.top-caption{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
+.top-stats{font-size:11px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.chip{background:var(--border);border-radius:20px;padding:2px 8px;font-size:11px;font-weight:600}
+.chip-green{background:#166534;color:var(--green)}
+.chip-yellow{background:#92400e;color:var(--yellow)}
+.chip-blue{background:#1e3a5f;color:#60a5fa}
+.chip-purple{background:#3b1e6e;color:#c084fc}
+
+/* Table */
+.table-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--border);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:var(--card2);padding:10px 12px;text-align:left;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{color:var(--text)}
+th.sort-asc::after{content:" ▲"}th.sort-desc::after{content:" ▼"}
+td{padding:9px 12px;border-top:1px solid var(--border);vertical-align:top}
+tr:hover td{background:var(--card2)}
+.caption-cell{max-width:260px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.type-badge{display:inline-block;border-radius:4px;padding:1px 6px;font-size:10px;font-weight:700}
+.type-REELS{background:#3b1e6e;color:#c084fc}
+.type-FEED{background:#1e3a5f;color:#60a5fa}
+.type-CAROUSEL{background:#0a3d2e;color:#6ee7b7}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.er-bar{height:4px;border-radius:2px;background:var(--accent);min-width:2px;max-width:60px}
+/* Filters */
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.filter-btn{background:var(--card2);border:1px solid var(--border);border-radius:20px;padding:4px 14px;cursor:pointer;font-size:12px;color:var(--muted)}
+.filter-btn.active,.filter-btn:hover{border-color:var(--accent);color:var(--accent)}
+input[type=text]{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:6px 12px;color:var(--text);font-size:13px;outline:none;min-width:220px}
+input[type=text]:focus{border-color:var(--accent)}
+
+/* Recommendations */
+.rec-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.rec-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
+.rec-icon{font-size:1.5rem;margin-bottom:8px}
+.rec-title{font-weight:700;font-size:15px;margin-bottom:6px}
+.rec-body{color:var(--muted);font-size:13px;line-height:1.6}
+.rec-stat{color:var(--text);font-weight:600}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <h1>📊 Instagram Analytics</h1>
+    <span class="badge">@bezikovkirilll</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+    <div id="date-range" class="updated"></div>
+    <div id="last-updated" class="updated"></div>
+  </div>
+</div>
+
+<div class="main">
+  <!-- KPI cards -->
+  <div class="kpi-row" id="kpi-row"></div>
+
+  <!-- Charts row -->
+  <div class="section">
+    <div class="grid2">
+      <div class="chart-card">
+        <h3>Охват по дням</h3>
+        <canvas id="chart-reach" height="180"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Сохранения и репосты</h3>
+        <canvas id="chart-saves-shares" height="180"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Type breakdown + ER dist -->
+  <div class="section">
+    <div class="grid2">
+      <div class="chart-card">
+        <h3>Эффективность по типу контента</h3>
+        <canvas id="chart-type" height="180"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>ТОП-5 по сохранениям</h3>
+        <div class="top-list" id="top-saves"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="grid2">
+      <div class="chart-card">
+        <h3>ТОП-5 по репостам</h3>
+        <div class="top-list" id="top-shares"></div>
+      </div>
+      <div class="chart-card">
+        <h3>ТОП-5 по удержанию (Reels)</h3>
+        <div class="top-list" id="top-watch"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recommendations -->
+  <div class="section">
+    <div class="section-header"><h2>🎯 Рекомендации</h2></div>
+    <div class="rec-grid" id="recommendations"></div>
+  </div>
+
+  <!-- Full table -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Все публикации</h2>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <input type="text" id="search" placeholder="Поиск по описанию...">
+      </div>
+    </div>
+    <div class="filters" id="type-filters">
+      <button class="filter-btn active" data-type="all">Все</button>
+      <button class="filter-btn" data-type="FEED">Карусель/Фото</button>
+      <button class="filter-btn" data-type="REELS">Рилс</button>
+    </div>
+    <div class="table-wrap">
+      <table id="posts-table">
+        <thead>
+          <tr>
+            <th data-col="date">Дата</th>
+            <th data-col="type">Тип</th>
+            <th data-col="caption">Описание</th>
+            <th data-col="reach" class="num sort-desc">Охват</th>
+            <th data-col="saved" class="num">Сохр.</th>
+            <th data-col="shares" class="num">Репосты</th>
+            <th data-col="likes" class="num">Лайки</th>
+            <th data-col="comments" class="num">Комм.</th>
+            <th data-col="er" class="num">ER%</th>
+            <th data-col="avg_watch_sec" class="num">Watch</th>
+            <th>Ссылка</th>
+          </tr>
+        </thead>
+        <tbody id="posts-body"></tbody>
+      </table>
+    </div>
+    <div id="table-footer" style="padding:10px 0;color:var(--muted);font-size:12px"></div>
+  </div>
+</div>
+
+<script>window.__D__=__INJECT_DATA__</script>
+<script>
+// ── DATA ──────────────────────────────────────────────────────
+let RAW_DATA = null;
+
+// ── HELPERS ───────────────────────────────────────────────────
+const fmt  = n => n == null ? '—' : Number(n).toLocaleString('ru');
+const fmtP = n => n == null || n === 0 ? '—' : n.toFixed(2) + '%';
+
+function typeName(p) {
+  if (p.product_type === 'REELS' || p.media_type === 'VIDEO') return 'REELS';
+  if (p.media_type === 'CAROUSEL_ALBUM') return 'CAROUSEL';
+  return 'FEED';
+}
+
+// populated in init() after data loads
+let posts = [];
+let tableData = [];
+
+// ── KPI ───────────────────────────────────────────────────────
+function buildKPI() {
+  const primary = posts;
+  const totalReach  = primary.reduce((s,p)=> s + (p.reach||0), 0);
+  const totalSaves  = primary.reduce((s,p)=> s + (p.saved||0), 0);
+  const totalShares = primary.reduce((s,p)=> s + (p.shares||0), 0);
+  const totalLikes  = primary.reduce((s,p)=> s + (p.likes||0), 0);
+  const totalComments = primary.reduce((s,p)=> s + (p.comments||0), 0);
+  const avgER       = primary.reduce((s,p)=> s + (p.er||0), 0) / (primary.length||1);
+  const reels       = primary.filter(p=> typeName(p)==='REELS' && p.avg_watch_sec > 0);
+  const avgWatch    = reels.length ? reels.reduce((s,p)=>s+(p.avg_watch_sec||0),0)/reels.length : 0;
+  const bestReach   = Math.max(...primary.map(p=>p.reach||0));
+
+  const kpis = [
+    {label:'Публикаций', value: fmt(primary.length), sub: RAW_DATA.days + ' дней'},
+    {label:'Суммарный охват', value: fmt(totalReach), cls:'accent'},
+    {label:'Лучший охват', value: fmt(bestReach), sub: 'один пост', cls:'green'},
+    {label:'Сохранений', value: fmt(totalSaves), cls:'yellow'},
+    {label:'Репостов', value: fmt(totalShares), cls:'yellow'},
+    {label:'Лайков', value: fmt(totalLikes)},
+    {label:'Комментариев', value: fmt(totalComments)},
+    {label:'Средний ER', value: fmtP(avgER), cls: avgER>3?'green':avgER>1?'yellow':'red'},
+    {label:'Avg Watch (Reels)', value: avgWatch ? avgWatch.toFixed(1)+'s' : '—', sub: reels.length + ' рилсов'},
+  ];
+  const row = document.getElementById('kpi-row');
+  row.innerHTML = kpis.map(k=>
+    `<div class="kpi"><div class="kpi-label">${k.label}</div><div class="kpi-value ${k.cls||''}">${k.value}</div><div class="kpi-sub">${k.sub||''}</div></div>`
+  ).join('');
+}
+
+// ── CHARTS ────────────────────────────────────────────────────
+const COLORS = {
+  purple:'rgba(108,99,255,0.85)', purpleL:'rgba(108,99,255,0.2)',
+  pink:'rgba(255,101,132,0.85)',  pinkL:'rgba(255,101,132,0.2)',
+  green:'rgba(34,197,94,0.85)',   greenL:'rgba(34,197,94,0.2)',
+  yellow:'rgba(245,158,11,0.85)', yellowL:'rgba(245,158,11,0.2)',
+};
+const chartDefaults = { responsive:true, plugins:{legend:{labels:{color:'#8892a4',font:{size:11}}}},
+  scales:{ x:{ticks:{color:'#8892a4',font:{size:10}},grid:{color:'#2d3148'}},
+           y:{ticks:{color:'#8892a4',font:{size:10}},grid:{color:'#2d3148'}} } };
+
+function buildCharts() {
+  // Group by date
+  const byDate = {};
+  posts.forEach(p => {
+    if (!byDate[p.date]) byDate[p.date] = {reach:0, saved:0, shares:0, count:0};
+    byDate[p.date].reach  += p.reach||0;
+    byDate[p.date].saved  += p.saved||0;
+    byDate[p.date].shares += p.shares||0;
+    byDate[p.date].count++;
+  });
+  const dates  = Object.keys(byDate).sort();
+  const labels = dates.map(d => d.slice(5)); // MM-DD
+
+  // Reach chart
+  new Chart(document.getElementById('chart-reach'), {
+    type:'bar',
+    data:{labels, datasets:[{
+      label:'Охват', data: dates.map(d=>byDate[d].reach),
+      backgroundColor: COLORS.purpleL, borderColor: COLORS.purple, borderWidth:1, borderRadius:3,
+    }]},
+    options: {...chartDefaults, plugins:{...chartDefaults.plugins}}
+  });
+
+  // Saves + Shares
+  new Chart(document.getElementById('chart-saves-shares'), {
+    type:'bar',
+    data:{labels, datasets:[
+      {label:'Сохранения', data: dates.map(d=>byDate[d].saved),
+       backgroundColor: COLORS.yellowL, borderColor: COLORS.yellow, borderWidth:1, borderRadius:3},
+      {label:'Репосты',   data: dates.map(d=>byDate[d].shares),
+       backgroundColor: COLORS.pinkL,   borderColor: COLORS.pink,   borderWidth:1, borderRadius:3},
+    ]},
+    options: {...chartDefaults}
+  });
+
+  // Type comparison
+  const types = ['REELS','CAROUSEL','FEED'];
+  const typeData = {};
+  types.forEach(t => {
+    const ps = posts.filter(p => typeName(p) === t);
+    typeData[t] = {
+      count: ps.length,
+      avgReach:  ps.length ? ps.reduce((s,p)=>s+(p.reach||0),0)/ps.length : 0,
+      avgSaves:  ps.length ? ps.reduce((s,p)=>s+(p.saved||0),0)/ps.length : 0,
+      avgShares: ps.length ? ps.reduce((s,p)=>s+(p.shares||0),0)/ps.length : 0,
+      avgER:     ps.length ? ps.reduce((s,p)=>s+(p.er||0),0)/ps.length : 0,
+    };
+  });
+
+  new Chart(document.getElementById('chart-type'), {
+    type:'bar',
+    data:{
+      labels: types.map(t => `${t} (n=${typeData[t].count})`),
+      datasets:[
+        {label:'Ср. охват',     data: types.map(t=>Math.round(typeData[t].avgReach)),
+         backgroundColor: COLORS.purpleL, borderColor: COLORS.purple, borderWidth:1, borderRadius:3},
+        {label:'Ср. сохранения',data: types.map(t=>Math.round(typeData[t].avgSaves)),
+         backgroundColor: COLORS.yellowL, borderColor: COLORS.yellow, borderWidth:1, borderRadius:3},
+        {label:'Ср. репосты',   data: types.map(t=>Math.round(typeData[t].avgShares)),
+         backgroundColor: COLORS.pinkL,   borderColor: COLORS.pink,   borderWidth:1, borderRadius:3},
+      ]
+    },
+    options: {...chartDefaults}
+  });
+}
+
+// ── TOP LISTS ─────────────────────────────────────────────────
+function typeChip(p) {
+  const t = typeName(p);
+  const map = {REELS:'chip-purple',CAROUSEL:'chip-green',FEED:'chip-blue'};
+  return `<span class="chip ${map[t]||''}">${t}</span>`;
+}
+function topItem(rank, p, mainMetric, mainVal) {
+  return `<div class="top-item">
+    <div class="top-rank">${rank}</div>
+    <div class="top-meta">
+      <div class="top-caption">${p.caption||'—'}</div>
+      <div class="top-stats">
+        ${typeChip(p)}
+        <span>${p.date}</span>
+        <span>👁 ${fmt(p.reach)}</span>
+        <span>💾 ${fmt(p.saved)}</span>
+        <span>📤 ${fmt(p.shares)}</span>
+        <span class="${p.er>5?'green':p.er>2?'yellow':''}">ER ${fmtP(p.er)}</span>
+      </div>
+    </div>
+    <div style="text-align:right;min-width:60px">
+      <div style="font-weight:700;font-size:1.1rem">${mainVal}</div>
+      <div style="font-size:10px;color:var(--muted)">${mainMetric}</div>
+    </div>
+  </div>`;
+}
+
+function buildTopLists() {
+  const bySaves  = [...posts].sort((a,b)=>(b.saved||0)-(a.saved||0)).slice(0,5);
+  const byShares = [...posts].sort((a,b)=>(b.shares||0)-(a.shares||0)).slice(0,5);
+  const reels    = posts.filter(p=>typeName(p)==='REELS' && p.avg_watch_sec > 0);
+  const byWatch  = [...reels].sort((a,b)=>(b.avg_watch_sec||0)-(a.avg_watch_sec||0)).slice(0,5);
+
+  document.getElementById('top-saves').innerHTML  = bySaves.map((p,i)=>topItem(i+1,p,'сохр.',fmt(p.saved))).join('');
+  document.getElementById('top-shares').innerHTML = byShares.map((p,i)=>topItem(i+1,p,'репосты',fmt(p.shares))).join('');
+  document.getElementById('top-watch').innerHTML  = byWatch.length
+    ? byWatch.map((p,i)=>topItem(i+1,p,'watch',(p.avg_watch_sec||0)+'s')).join('')
+    : '<div style="color:var(--muted);padding:12px">Нет данных по рилсам</div>';
+}
+
+// ── RECOMMENDATIONS ───────────────────────────────────────────
+function buildRecs() {
+  const primary = posts;
+  const reels = primary.filter(p=>typeName(p)==='REELS');
+  const carousel = primary.filter(p=>typeName(p)==='CAROUSEL');
+  const feed = primary.filter(p=>typeName(p)==='FEED');
+
+  const avg = (arr, key) => arr.length ? arr.reduce((s,p)=>s+(p[key]||0),0)/arr.length : 0;
+  const fmt1 = n => n.toFixed(1);
+
+  const topSavers = [...primary].sort((a,b)=>(b.save_rate||0)-(a.save_rate||0)).slice(0,3);
+  const topSharers = [...primary].sort((a,b)=>(b.share_rate||0)-(a.share_rate||0)).slice(0,3);
+
+  // Find most-saving content theme keywords
+  const saveTopics = topSavers.map(p=>(p.caption||'').slice(0,60));
+  const shareTopics = topSharers.map(p=>(p.caption||'').slice(0,60));
+
+  const bestType = [
+    {type:'REELS',    reach: avg(reels,   'reach'), saves: avg(reels,   'saved')},
+    {type:'CAROUSEL', reach: avg(carousel,'reach'), saves: avg(carousel,'saved')},
+    {type:'FEED',     reach: avg(feed,    'reach'), saves: avg(feed,    'saved')},
+  ].sort((a,b)=>b.reach-a.reach)[0];
+
+  const avgWatchReels = avg(reels.filter(p=>p.avg_watch_sec>0), 'avg_watch_sec');
+  const topWatchReels = [...reels].filter(p=>p.avg_watch_sec>0).sort((a,b)=>b.avg_watch_sec-a.avg_watch_sec).slice(0,1)[0];
+
+  const recs = [
+    {
+      icon:'💾',
+      title:'Контент с высоким сохранением',
+      body:`Топ-3 поста по сохранениям: <br><span class="rec-stat">${saveTopics.join('<br>')}</span><br><br>Формула: списки инструментов, практические ресурсы, подборки. Такой контент сохраняют, чтобы вернуться.`
+    },
+    {
+      icon:'📤',
+      title:'Контент с высоким репостом',
+      body:`Топ-3 по репостам: <br><span class="rec-stat">${shareTopics.join('<br>')}</span><br><br>Репостят: актуальные события, неожиданные данные, истории с сильным «это про меня».`
+    },
+    {
+      icon:'📊',
+      title:`Лучший тип контента — ${bestType.type}`,
+      body:`Средний охват по типам:<br>
+        Рилс: <span class="rec-stat">${fmt(Math.round(avg(reels,'reach')))}</span><br>
+        Карусель: <span class="rec-stat">${fmt(Math.round(avg(carousel,'reach')))}</span><br>
+        Фото: <span class="rec-stat">${fmt(Math.round(avg(feed,'reach')))}</span><br><br>
+        Ср. сохранения: Карусель <span class="rec-stat">${fmt1(avg(carousel,'saved'))}</span> vs Рилс <span class="rec-stat">${fmt1(avg(reels,'saved'))}</span>`
+    },
+    {
+      icon:'⏱',
+      title:'Удержание в рилсах',
+      body: avgWatchReels > 0
+        ? `Средний watch time: <span class="rec-stat">${fmt1(avgWatchReels)} сек</span><br>${topWatchReels ? 'Лучший рилс: <span class="rec-stat">'+topWatchReels.avg_watch_sec+'с — '+topWatchReels.caption.slice(0,60)+'</span>' : ''}<br><br>Для роста удержания: первые 2–3 секунды решают всё. Крупный план + конкретный вопрос/факт в хуке.`
+        : 'Недостаточно данных по рилсам для анализа удержания.'
+    },
+    {
+      icon:'🎯',
+      title:'Что публиковать чаще',
+      body:`На основе данных: <span class="rec-stat">Карусели дают в ${carousel.length && reels.length ? Math.round(avg(carousel,'saved')/Math.max(avg(reels,'saved'),0.01)) : '?'}x больше сохранений</span> чем рилсы.<br><br>
+        Рекомендованный микс: 3–4 карусели в неделю + 1–2 рилса для охвата. Карусели — основа базы подписчиков, рилсы — трафик.`
+    },
+    {
+      icon:'🔗',
+      title:'Переходы в шапку профиля',
+      body:`Лучший триггер для переходов — конкретный оффер в CTA. Вместо «ссылка в шапке» пишите ЧТО там: «В шапке — бесплатный марафон по ИИ (5 уроков)».<br><br>Карусели с инструментами и подборками дают наибольшую мотивацию перейти.`
+    },
+  ];
+
+  document.getElementById('recommendations').innerHTML = recs.map(r=>
+    `<div class="rec-card"><div class="rec-icon">${r.icon}</div><div class="rec-title">${r.title}</div><div class="rec-body">${r.body}</div></div>`
+  ).join('');
+}
+
+// ── TABLE ─────────────────────────────────────────────────────
+let sortCol   = 'reach';
+let sortDir   = -1;
+let filterType = 'all';
+let searchQ    = '';
+
+function renderTable() {
+  let data = tableData.filter(p => {
+    if (filterType !== 'all' && typeName(p) !== filterType) return false;
+    if (searchQ && !(p.caption||'').toLowerCase().includes(searchQ)) return false;
+    return true;
+  });
+  data.sort((a,b) => {
+    const av = a[sortCol] ?? (sortCol==='date'?'':0);
+    const bv = b[sortCol] ?? (sortCol==='date'?'':0);
+    if (av < bv) return sortDir;
+    if (av > bv) return -sortDir;
+    return 0;
+  });
+  const tbody = document.getElementById('posts-body');
+  const typeLabel = {REELS:'Рилс',CAROUSEL:'Карусель',FEED:'Фото'};
+  const typeClass = {REELS:'type-REELS',CAROUSEL:'type-CAROUSEL',FEED:'type-FEED'};
+  tbody.innerHTML = data.map(p => {
+    const t = typeName(p);
+    const erCls = p.er > 5 ? 'green' : p.er > 2 ? 'yellow' : 'red';
+    const maxER = Math.max(...posts.map(x=>x.er||0));
+    const barW  = maxER > 0 ? Math.round((p.er||0)/maxER*60) : 0;
+    return `<tr>
+      <td>${p.date}</td>
+      <td><span class="type-badge ${typeClass[t]}">${typeLabel[t]}</span></td>
+      <td class="caption-cell" title="${(p.caption||'').replace(/"/g,'&quot;')}">
+        ${p.caption ? p.caption.slice(0,80) : '<span style="color:var(--muted)">—</span>'}
+      </td>
+      <td class="num">${fmt(p.reach)}</td>
+      <td class="num">${fmt(p.saved)}</td>
+      <td class="num">${fmt(p.shares)}</td>
+      <td class="num">${fmt(p.likes)}</td>
+      <td class="num">${fmt(p.comments)}</td>
+      <td class="num ${erCls}" title="ER = (лайки+комм+сохр+репосты)/охват">
+        ${fmtP(p.er)}<div class="er-bar" style="width:${barW}px"></div>
+      </td>
+      <td class="num">${p.avg_watch_sec ? p.avg_watch_sec+'s' : '—'}</td>
+      <td>${p.permalink ? '<a href="'+p.permalink+'" target="_blank">→</a>' : '—'}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('table-footer').textContent = `Показано ${data.length} из ${posts.length} публикаций`;
+}
+
+function initTable() {
+  // Sort headers
+  document.querySelectorAll('th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (sortCol === col) { sortDir *= -1; }
+      else { sortCol = col; sortDir = col === 'date' ? 1 : -1; }
+      document.querySelectorAll('th').forEach(t => t.classList.remove('sort-asc','sort-desc'));
+      th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      renderTable();
+    });
+  });
+  // Type filters
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      filterType = btn.dataset.type;
+      renderTable();
+    });
+  });
+  // Search
+  document.getElementById('search').addEventListener('input', e => {
+    searchQ = e.target.value.toLowerCase();
+    renderTable();
+  });
+  renderTable();
+}
+
+// ── INIT ──────────────────────────────────────────────────────
+function init() {
+  // Init posts from loaded data
+  posts = RAW_DATA.posts.filter(p => p.status === 'primary' || !p.status);
+  posts.sort((a,b) => b.date.localeCompare(a.date));
+  tableData = [...posts];
+
+  // Header info
+  const dates = posts.map(p=>p.date).sort();
+  document.getElementById('date-range').textContent = dates.length
+    ? `${dates[0]} — ${dates[dates.length-1]}` : '';
+  const upd = new Date(RAW_DATA.collected_at);
+  document.getElementById('last-updated').textContent =
+    'Обновлено: ' + upd.toLocaleString('ru', {day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+
+  buildKPI();
+  buildCharts();
+  buildTopLists();
+  buildRecs();
+  initTable();
+}
+
+// Boot: use inline data if injected, else fetch from GitHub
+const DATA_URL = 'https://raw.githubusercontent.com/neuroboostpr-pixel/ig-analytics-data/main/data.json';
+(async function boot() {
+  try {
+    if (window.__D__ && typeof window.__D__ === 'object') {
+      RAW_DATA = window.__D__;
+    } else {
+      const r = await fetch(DATA_URL);
+      RAW_DATA = await r.json();
+    }
+  } catch(e) {
+    document.body.innerHTML = '<div style="color:#ef4444;padding:40px;font-family:monospace">Ошибка загрузки данных: ' + e + '</div>';
+    return;
+  }
+  init();
+})();
+</script>
+</body>
+</html>
