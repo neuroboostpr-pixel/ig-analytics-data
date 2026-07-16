@@ -69,6 +69,13 @@ input[type=text]:focus{border-color:var(--accent)}
 .rec-title{font-weight:700;font-size:15px;margin-bottom:6px}
 .rec-body{color:var(--muted);font-size:13px;line-height:1.6}
 .rec-stat{color:var(--text);font-weight:600}
+.fmt-badge{display:inline-block;border-radius:4px;padding:1px 7px;font-size:10px;font-weight:700;margin-right:6px}
+.fmt-карусель{background:#1e3a5f;color:#60a5fa}
+.fmt-пост{background:#166534;color:#6ee7b7}
+.fmt-рилс{background:#3b1e6e;color:#c084fc}
+.cta-badge{font-size:10px;font-weight:700;background:var(--card2);border-radius:4px;padding:1px 7px;color:var(--yellow)}
+.signals{font-size:11px;color:var(--muted);margin-top:4px}
+.topic-evidence{margin-top:8px;font-size:11px;color:var(--muted);border-top:1px solid var(--border);padding-top:8px}
 </style>
 </head>
 <body>
@@ -130,8 +137,17 @@ input[type=text]:focus{border-color:var(--accent)}
 
   <!-- Recommendations -->
   <div class="section">
-    <div class="section-header"><h2>🎯 Рекомендации</h2></div>
+    <div class="section-header"><h2>🎯 Рекомендации по контенту</h2></div>
     <div class="rec-grid" id="recommendations"></div>
+  </div>
+
+  <!-- Topics from digests -->
+  <div class="section" id="topics-section" style="display:none">
+    <div class="section-header">
+      <h2>💡 Горячие темы из дайджестов</h2>
+      <span id="topics-meta" class="updated"></span>
+    </div>
+    <div class="rec-grid" id="topics-grid"></div>
   </div>
 
   <!-- Full table -->
@@ -408,6 +424,33 @@ function buildRecs() {
   ).join('');
 }
 
+// ── TOPICS FROM DIGESTS ───────────────────────────────────────
+function buildTopics(data) {
+  const ideas = data.ideas || [];
+  if (!ideas.length) return;
+  const gen = new Date(data.generated_at);
+  document.getElementById('topics-meta').textContent =
+    'Из ' + data.source_posts_analyzed + ' постов дайджестов · ' +
+    gen.toLocaleDateString('ru', {day:'2-digit',month:'2-digit'});
+  const fmtClass = {карусель:'fmt-карусель',пост:'fmt-пост',рилс:'fmt-рилс'};
+  document.getElementById('topics-grid').innerHTML = ideas.map(idea => {
+    const ev = (idea.evidence||[]).map(e=>
+      `<div>📌 r/${e.source.replace('r/','')} [${e.date}]: ${e.title}</div>`
+    ).join('');
+    return `<div class="rec-card">
+      <div style="margin-bottom:8px">
+        <span class="fmt-badge ${fmtClass[idea.format]||''}">${idea.format}</span>
+        <span class="cta-badge">${idea.cta}</span>
+        <span style="font-size:10px;color:var(--muted);margin-left:4px">${idea.signal_count} сигналов</span>
+      </div>
+      <div class="rec-title">${idea.title}</div>
+      <div class="rec-body" style="margin-top:6px">${idea.angle}</div>
+      ${ev ? '<div class="topic-evidence">'+ev+'</div>' : ''}
+    </div>`;
+  }).join('');
+  document.getElementById('topics-section').style.display = '';
+}
+
 // ── TABLE ─────────────────────────────────────────────────────
 let sortCol   = 'reach';
 let sortDir   = -1;
@@ -449,7 +492,7 @@ function renderTable() {
       <td class="num ${erCls}" title="ER = (лайки+комм+сохр+репосты)/охват">
         ${fmtP(p.er)}<div class="er-bar" style="width:${barW}px"></div>
       </td>
-      <td class="num">${p.avg_watch_sec ? p.avg_watch_sec+'s' : '—'}</td>
+      <td class="num">${p.avg_watch_sec ? p.avg_watch_sec+'s' : (t==='CAROUSEL' ? '<span title="Метрика недоступна для каруселей в Instagram API" style="color:var(--muted);font-size:10px">н/д API</span>' : '—')}</td>
       <td>${p.permalink ? '<a href="'+p.permalink+'" target="_blank">→</a>' : '—'}</td>
     </tr>`;
   }).join('');
@@ -507,8 +550,9 @@ function init() {
   initTable();
 }
 
-// Boot: use inline data if injected, else fetch from GitHub
-const DATA_URL = 'https://raw.githubusercontent.com/neuroboostpr-pixel/ig-analytics-data/main/data.json';
+// Boot: load data + topics from GitHub
+const DATA_URL   = 'https://raw.githubusercontent.com/neuroboostpr-pixel/ig-analytics-data/main/data.json';
+const TOPICS_URL = 'https://raw.githubusercontent.com/neuroboostpr-pixel/ig-analytics-data/main/topics.json';
 (async function boot() {
   try {
     if (window.__D__ && typeof window.__D__ === 'object') {
@@ -522,6 +566,14 @@ const DATA_URL = 'https://raw.githubusercontent.com/neuroboostpr-pixel/ig-analyt
     return;
   }
   init();
+  // Load topics separately (non-blocking)
+  try {
+    const tr = await fetch(TOPICS_URL);
+    if (tr.ok) {
+      const topics = await tr.json();
+      buildTopics(topics);
+    }
+  } catch(e) { /* topics optional */ }
 })();
 </script>
 </body>
