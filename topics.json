@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T06:00:03.646679+00:00",
-  "source_posts_analyzed": 306,
+  "generated_at": "2026-07-19T22:00:01.508664+00:00",
+  "source_posts_analyzed": 308,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 44,
+      "signal_count": 45,
       "evidence": [
         {
           "source": "r/smallbusiness",
