@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T22:00:02.162617+00:00",
-  "source_posts_analyzed": 325,
+  "generated_at": "2026-07-19T06:00:03.646679+00:00",
+  "source_posts_analyzed": 306,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,21 +11,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 55,
+      "signal_count": 49,
       "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "I spent 5 months trying to make Claude actually act like a personal assistant. Here's what finally w",
-          "date": "2026-06-03",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvsg71/i_spent_5_months_trying_to_make_claude_actually/"
-        },
         {
           "source": "r/Entrepreneur",
           "title": "A lesson that everyone is told but i still had to learn the hard way",
           "date": "2026-06-03",
-          "relevance": 5,
+          "relevance": 6,
           "url": "https://www.reddit.com/r/Entrepreneur/comments/1tvjcii/a_lesson_that_everyone_is_told_but_i_still_had_to/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I'm a project manager and I use ChatGPT prompts for every repetitive work task. Here's my actual sys",
+          "date": "2026-06-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1twjymz/im_a_project_manager_and_i_use_chatgpt_prompts/"
         }
       ]
     },
@@ -68,14 +68,14 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 28,
+      "signal_count": 27,
       "evidence": [
         {
-          "source": "r/SideProject",
-          "title": "Built a platform where people share failures and lessons through text and voice stories",
-          "date": "2026-06-03",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1tvtem3/built_a_platform_where_people_share_failures_and/"
+          "source": "r/smallbusiness",
+          "title": "What’s one purchase under $100 that made running your business easier?",
+          "date": "2026-06-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1twzxec/whats_one_purchase_under_100_that_made_running/"
         },
         {
           "source": "r/smallbusiness",
@@ -321,55 +321,6 @@
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
-        }
-      ]
-    },
-    {
-      "theme": "gamma-презентации",
-      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
-      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
-      "format": "рилс",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Gamma",
-        "Claude",
-        "Beautiful.ai"
-      ],
-      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "What is up with skills in ChatGPT? (PowerPoint Creation from Template)",
-          "date": "2026-06-03",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1tvu9wk/what_is_up_with_skills_in_chatgpt_powerpoint/"
-        }
-      ]
-    },
-    {
-      "theme": "n8n-автоматизация",
-      "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
-      "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
-      "format": "карусель",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "n8n",
-        "Claude API",
-        "Telegram",
-        "Airtable"
-      ],
-      "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "The No-Code Stack is Splitting: Visual Workflows (Make/n8n) vs. Full-Stack AI Prompting (Architect/L",
-          "date": "2026-06-03",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1tw0v4m/the_nocode_stack_is_splitting_visual_workflows/"
         }
       ]
     },
