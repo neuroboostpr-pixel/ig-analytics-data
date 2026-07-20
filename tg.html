@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TG Дашборд — @kirillbezikov</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0a0f;--card:#111118;--border:#1f2937;--text:#e5e7eb;--muted:#6b7280}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px}
+h1{font-size:20px;font-weight:800;margin-bottom:4px}
+h2{font-size:15px;font-weight:700;margin:28px 0 12px;color:#a78bfa}
+
+/* KPI */
+.kpi-grid{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 18px;text-align:center;flex:1;min-width:110px}
+.kpi-v{font-size:24px;font-weight:900}
+.kpi-l{font-size:11px;color:var(--muted);margin-top:2px}
+
+/* Table */
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+th{background:#0e0e18;color:var(--muted);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:10px 12px;text-align:left;border-bottom:1px solid var(--border)}
+td{padding:10px 12px;border-bottom:1px solid #0f1117;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#0e0e18}
+
+/* Bar */
+.bar{display:flex;align-items:center;gap:6px}
+.bar-fill{height:8px;border-radius:4px;background:#6366f1;min-width:4px}
+.bar span{font-size:12px;color:var(--muted);min-width:36px}
+
+/* Emoji */
+.emo{background:#1f2937;border-radius:5px;padding:2px 6px;font-size:12px;margin:1px}
+
+/* Hypothesis cards */
+.hyp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-bottom:28px}
+.hyp{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px}
+.hyp-num{font-size:28px;font-weight:900;color:#6366f1;float:right;line-height:1}
+.hyp-title{font-size:13px;font-weight:700;margin-bottom:8px;color:#e5e7eb}
+.hyp-body{font-size:12px;color:#9ca3af;line-height:1.7}
+.hyp-proof{margin-top:8px;font-size:11px;background:#1e1b4b;border-radius:5px;padding:5px 8px;color:#a5b4fc}
+.tag{display:inline-block;border-radius:4px;padding:2px 7px;font-size:11px;font-weight:700;margin-bottom:8px}
+.tag-green{background:#064e3b;color:#34d399}
+.tag-yellow{background:#451a03;color:#fbbf24}
+.tag-red{background:#450a0a;color:#f87171}
+
+/* Nav */
+.nav{background:#0e0e18;border:1px solid var(--border);border-radius:10px;padding:10px 16px;margin-bottom:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.nav a{color:#a78bfa;font-size:13px;font-weight:600;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="nav">
+  <a href="reels.html">← Reels отчёт</a>
+  <span style="color:#374151">|</span>
+  <span style="font-size:12px;color:var(--muted)">📊 TG Дашборд @kirillbezikov &nbsp;·&nbsp; 20.07.2026 08:07</span>
+</div>
+
+<div style="margin-bottom:20px">
+  <h1>📊 Telegram @kirillbezikov — неделя 13–18 июля</h1>
+  <p style="color:var(--muted);font-size:13px;margin-top:4px">11 постов · Рейтинг по ER (вовлечённость = репосты + реакции / просмотры)</p>
+</div>
+
+<div class="kpi-grid">
+  <div class="kpi"><div class="kpi-v">11</div><div class="kpi-l">постов за неделю</div></div>
+  <div class="kpi"><div class="kpi-v">631</div><div class="kpi-l">avg просмотров</div></div>
+  <div class="kpi"><div class="kpi-v" style="color:#10b981">6,947</div><div class="kpi-l">всего просмотров</div></div>
+  <div class="kpi"><div class="kpi-v" style="color:#a78bfa">126</div><div class="kpi-l">всего репостов</div></div>
+  <div class="kpi"><div class="kpi-v">3.3%</div><div class="kpi-l">avg ER</div></div>
+  <div class="kpi"><div class="kpi-v" style="color:#10b981">7.48%</div><div class="kpi-l">лучший ER</div></div>
+</div>
+
+<h2>📋 Рейтинг постов по ER</h2>
+<table>
+<thead><tr>
+  <th>#</th><th>Дата</th><th>Тема</th>
+  <th>👁 Просмотры</th><th>↗ Репосты</th><th>💬 Реакции</th>
+  <th>ER%</th><th>Эмодзи</th>
+</tr></thead>
+<tbody>
+<tr>
+  <td style="text-align:center;font-size:18px">🥇</td>
+  <td style="font-size:11px;color:#6b7280">07-17 08:28</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Топ-5 репозиториев с GitHub за эту неделю⚡️ Прошлая подборка многим зашла, поэто…</td>
+  <td><div class="bar"><div class="bar-fill" style="width:75px"></div><span>508</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:112px"></div><span>30</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:60px"></div><span>8</span></div></td>
+  <td style="font-weight:800;color:#10b981;font-size:16px">7.48%</td>
+  <td style="font-size:12px"><span class="emo">❤ 3</span> <span class="emo">👍 3</span> <span class="emo">🔥 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">🥈</td>
+  <td style="font-size:11px;color:#6b7280">07-16 09:19</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Запретите нейронке писать код, чтобы получить автоматизацию, которая работает с …</td>
+  <td><div class="bar"><div class="bar-fill" style="width:90px"></div><span>608</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:120px"></div><span>32</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:90px"></div><span>12</span></div></td>
+  <td style="font-weight:800;color:#10b981;font-size:16px">7.24%</td>
+  <td style="font-size:12px"><span class="emo">ReactionPaid() 1</span> <span class="emo">🔥 5</span> <span class="emo">👍 4</span> <span class="emo">❤ 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">🥉</td>
+  <td style="font-size:11px;color:#6b7280">07-17 13:29</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Скиллы для агентов: что это и почему они сейчас везде  В канале всё чаще появляю…</td>
+  <td><div class="bar"><div class="bar-fill" style="width:79px"></div><span>534</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:71px"></div><span>19</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:67px"></div><span>9</span></div></td>
+  <td style="font-weight:800;color:#f59e0b;font-size:16px">5.24%</td>
+  <td style="font-size:12px"><span class="emo">👍 5</span> <span class="emo">❤ 2</span> <span class="emo">🔥 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">4️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-16 12:05</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4"><span style="color:#6b7280;font-style:italic">медиапост</span></td>
+  <td><div class="bar"><div class="bar-fill" style="width:84px"></div><span>566</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:11px"></div><span>3</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:90px"></div><span>12</span></div></td>
+  <td style="font-weight:800;color:#f97316;font-size:16px">2.65%</td>
+  <td style="font-size:12px"><span class="emo">😁 7</span> <span class="emo">🤣 5</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">5️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-18 11:45</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Как люди используют ChatGPT на самом деле: неожиданные кейсы  1️⃣ В июне был на …</td>
+  <td><div class="bar"><div class="bar-fill" style="width:72px"></div><span>482</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:22px"></div><span>6</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:45px"></div><span>6</span></div></td>
+  <td style="font-weight:800;color:#f97316;font-size:16px">2.49%</td>
+  <td style="font-size:12px"><span class="emo">🤔 4</span> <span class="emo">❤ 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">6️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-15 16:05</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Вайбкодинг захватил рынок⚡️  В понедельном дайджесте я рассказывал, что бывший C…</td>
+  <td><div class="bar"><div class="bar-fill" style="width:91px"></div><span>613</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:37px"></div><span>10</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:37px"></div><span>5</span></div></td>
+  <td style="font-weight:800;color:#f97316;font-size:16px">2.45%</td>
+  <td style="font-size:12px"><span class="emo">❤ 3</span> <span class="emo">🔥 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">7️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-14 08:08</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">OpenAI: [Снимаем 5-часовые лимиты.](https://openai.com/products/release-notes/?u…</td>
+  <td><div class="bar"><div class="bar-fill" style="width:118px"></div><span>795</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:11px"></div><span>3</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:120px"></div><span>16</span></div></td>
+  <td style="font-weight:800;color:#f97316;font-size:16px">2.39%</td>
+  <td style="font-size:12px"><span class="emo">😁 8</span> <span class="emo">🔥 5</span> <span class="emo">❤ 2</span> <span class="emo">👍 1</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">8️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-15 09:33</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Месяцами чинил одни и те же баги у своих агентов, GPT-5.6 Sol нашел три причины …</td>
+  <td><div class="bar"><div class="bar-fill" style="width:95px"></div><span>641</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:15px"></div><span>4</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:82px"></div><span>11</span></div></td>
+  <td style="font-weight:800;color:#f97316;font-size:16px">2.34%</td>
+  <td style="font-size:12px"><span class="emo">❤ 5</span> <span class="emo">🔥 4</span> <span class="emo">👍 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">9️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-13 08:37</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">Понедельный дайджест · 7–13 июля  Главное из мира ИИ за прошлую неделю  1. [Поче…</td>
+  <td><div class="bar"><div class="bar-fill" style="width:111px"></div><span>747</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:26px"></div><span>7</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:45px"></div><span>6</span></div></td>
+  <td style="font-weight:800;color:#ef4444;font-size:16px">1.74%</td>
+  <td style="font-size:12px"><span class="emo">❤ 4</span> <span class="emo">🔥 2</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">🔟</td>
+  <td style="font-size:11px;color:#6b7280">07-13 15:24</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4">ИИ-агент в продакшне: четыре поломки, которые тесты не показывают  [Разработчик …</td>
+  <td><div class="bar"><div class="bar-fill" style="width:120px"></div><span>803</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:15px"></div><span>4</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:52px"></div><span>7</span></div></td>
+  <td style="font-weight:800;color:#ef4444;font-size:16px">1.37%</td>
+  <td style="font-size:12px"><span class="emo">👍 4</span> <span class="emo">❤ 3</span></td>
+</tr>
+<tr>
+  <td style="text-align:center;font-size:18px">1️⃣1️⃣</td>
+  <td style="font-size:11px;color:#6b7280">07-15 16:05</td>
+  <td style="font-size:12px;max-width:320px;line-height:1.4"><span style="color:#6b7280;font-style:italic">медиапост</span></td>
+  <td><div class="bar"><div class="bar-fill" style="width:97px"></div><span>650</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:30px"></div><span>8</span></div></td>
+  <td><div class="bar"><div class="bar-fill" style="width:0px"></div><span>0</span></div></td>
+  <td style="font-weight:800;color:#ef4444;font-size:16px">1.23%</td>
+  <td style="font-size:12px"><span style="color:#4b5563">—</span></td>
+</tr></tbody>
+</table>
+
+<h2>🧠 Гипотезы — почему так получилось</h2>
+<div class="hyp-grid">
+
+<div class="hyp">
+  <div class="hyp-num">1</div>
+  <span class="tag tag-green">Формат</span>
+  <div class="hyp-title">GitHub-подборки — машина для репостов</div>
+  <div class="hyp-body">«Топ-5 репозиториев» набрал 30 репостов и ER 7.5% — лучший результат по обоим показателям среди текстовых постов. Люди шерят списки потому что хотят «сохранить себе» — подборка инструментов = персональный закладчик.</div>
+  <div class="hyp-proof">📊 #2868: 508 просмотров · 30 репостов · ER 7.5%</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">2</div>
+  <span class="tag tag-green">Хук</span>
+  <div class="hyp-title">Провокационный заголовок бьёт практичный совет</div>
+  <div class="hyp-body">«Запретите нейронке писать код» — 32 репоста, ER 7.2%. Парадоксальная формулировка (запрети → чтобы получить лучший результат) создаёт когнитивный диссонанс который заставляет дочитать и поделиться.</div>
+  <div class="hyp-proof">📊 #2866: 608 просмотров · 32 репоста · 1 платная реакция · ER 7.2%</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">3</div>
+  <span class="tag tag-green">Тема</span>
+  <div class="hyp-title">Объяснение нового тренда = виральность среди своих</div>
+  <div class="hyp-body">«Скиллы для агентов» — 19 репостов, ER 5.2%. Люди пересылают когда чувствуют что им дали «инсайдерское» понимание нового явления. Механика: «расскажу другу пока он ещё не знает».</div>
+  <div class="hyp-proof">📊 #2869: 534 просмотров · 19 репостов · ER 5.2%</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">4</div>
+  <span class="tag tag-yellow">Время</span>
+  <div class="hyp-title">Начало недели собирает в 1.5× больше просмотров</div>
+  <div class="hyp-body">Посты 13–14 июля (пн-вт) набрали 747–803 просмотра, посты 17–18 июля (чт-пт) — 482–534. Гипотеза: аудитория активнее читает в начале недели, пятница — наименьшая органика.</div>
+  <div class="hyp-proof">Пн-Вт avg: 782 · Ср avg: 629 · Чт-Пт avg: 524</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">5</div>
+  <span class="tag tag-yellow">Формат</span>
+  <div class="hyp-title">Юмор удерживает аудиторию, но не даёт охват</div>
+  <div class="hyp-body">Посты с 😁🤣 реакциями (#2862 OpenAI/Anthropic новость, #2867 медиапост) имеют хорошие реакции но низкий репост-рейт. Юмор работает на лояльность существующих подписчиков, не на рост.</div>
+  <div class="hyp-proof">📊 #2862: 16 реакций (😁×8) но всего 3 репоста · ER 2.4%</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">6</div>
+  <span class="tag tag-red">Проблема</span>
+  <div class="hyp-title">Личный кейс даёт реакции но не репосты</div>
+  <div class="hyp-body">«GPT-5.6 нашел баги у агентов» — 11 реакций (❤🔥) но только 4 репоста. Аудитория эмоционально откликается на личный опыт, но не пересылает. Гипотеза: история без универсального вывода не даёт мотивации поделиться.</div>
+  <div class="hyp-proof">📊 #2863: 641 просмотр · 4 репоста · 11 реакций · ER 2.3%</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">7</div>
+  <span class="tag tag-red">Слабость</span>
+  <div class="hyp-title">Понедельный дайджест не вовлекает несмотря на просмотры</div>
+  <div class="hyp-body">Дайджест собрал 747 просмотров (3-й по охвату) но ER всего 1.7% — самый низкий среди текстовых постов. Людей просматривают заголовок, не дочитывают, не делятся. Формат «много всего» = низкая ценность на единицу внимания.</div>
+  <div class="hyp-proof">📊 #2860: 747 просмотров · 7 репостов · 6 реакций · ER 1.7%</div>
+</div>
+
+<div class="hyp">
+  <div class="hyp-num">8</div>
+  <span class="tag tag-yellow">Наблюдение</span>
+  <div class="hyp-title">Платная реакция на практическом посте — сигнал</div>
+  <div class="hyp-body">Только один пост получил ReactionPaid (платная реакция) — «Запретите нейронке писать код». Это аномалия. Гипотеза: контент с конкретным «трюком» который меняет рабочий процесс вызывает желание поблагодарить деньгами.</div>
+  <div class="hyp-proof">📊 #2866: единственный пост с ReactionPaid из 11</div>
+</div>
+
+</div>
+
+<h2>🎯 Что делать на следующей неделе</h2>
+<table>
+<thead><tr><th>Действие</th><th>Обоснование</th><th>Приоритет</th></tr></thead>
+<tbody>
+<tr><td>Выпустить ещё одну GitHub-подборку</td><td>Лучший формат по репостам и ER, повторяемый паттерн</td><td style="color:#10b981;font-weight:700">🔥 Высокий</td></tr>
+<tr><td>Провокационный заголовок для следующего практического поста</td><td>«Запрети X чтобы получить Y» — формат работает</td><td style="color:#10b981;font-weight:700">🔥 Высокий</td></tr>
+<tr><td>Публиковать ключевые посты в пн-ср</td><td>Начало недели +50% просмотров к тем же постам</td><td style="color:#f59e0b;font-weight:700">⚡ Средний</td></tr>
+<tr><td>Добавить универсальный вывод к личным кейсам</td><td>Кейс без вывода не даёт мотивацию поделиться</td><td style="color:#f59e0b;font-weight:700">⚡ Средний</td></tr>
+<tr><td>Протестировать дайджест в другом формате (топ-3 вместо большого обзора)</td><td>Текущий дайджест — худший ER среди текстовых постов</td><td style="color:#6b7280;font-weight:700">📌 Низкий</td></tr>
+</tbody>
+</table>
+
+</div>
+</body>
+</html>
