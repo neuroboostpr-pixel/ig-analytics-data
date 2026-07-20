@@ -1,34 +1,7 @@
 {
-  "generated_at": "2026-07-19T22:00:01.508664+00:00",
-  "source_posts_analyzed": 308,
+  "generated_at": "2026-07-20T06:00:04.339436+00:00",
+  "source_posts_analyzed": 282,
   "ideas": [
-    {
-      "theme": "автоматизация-продаж",
-      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
-      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 49,
-      "evidence": [
-        {
-          "source": "r/Entrepreneur",
-          "title": "A lesson that everyone is told but i still had to learn the hard way",
-          "date": "2026-06-03",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tvjcii/a_lesson_that_everyone_is_told_but_i_still_had_to/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "I'm a project manager and I use ChatGPT prompts for every repetitive work task. Here's my actual sys",
-          "date": "2026-06-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1twjymz/im_a_project_manager_and_i_use_chatgpt_prompts/"
-        }
-      ]
-    },
     {
       "theme": "рост-чека",
       "title": "Как ИИ помогает фрилансеру держать чек, когда клиенты говорят «ChatGPT это сам сделает»",
@@ -41,21 +14,48 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 45,
+      "signal_count": 42,
       "evidence": [
         {
-          "source": "r/smallbusiness",
-          "title": "Anyone else in a super niche B2B industry struggling with marketing agencies?",
+          "source": "r/artificial",
+          "title": "What AI skill will still matter when everyone has access to AI?",
           "date": "2026-06-04",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1tweme0/anyone_else_in_a_super_niche_b2b_industry/"
+          "url": "https://www.reddit.com/r/artificial/comments/1tx2nun/what_ai_skill_will_still_matter_when_everyone_has/"
         },
         {
-          "source": "r/ClaudeAI",
-          "title": "I tested GPT-5.5 vs Opus 4.8 on agentic terminal coding (Terminal-Bench 2.1)",
+          "source": "r/StableDiffusion",
+          "title": "Testing Lens and Ideogram 4.0 with a bunch of my prompts",
           "date": "2026-06-04",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1twmqxk/i_tested_gpt55_vs_opus_48_on_agentic_terminal/"
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1twzwxr/testing_lens_and_ideogram_40_with_a_bunch_of_my/"
+        }
+      ]
+    },
+    {
+      "theme": "автоматизация-продаж",
+      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
+      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 40,
+      "evidence": [
+        {
+          "source": "r/Entrepreneur",
+          "title": "A lesson that everyone is told but i still had to learn the hard way",
+          "date": "2026-06-03",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tvjcii/a_lesson_that_everyone_is_told_but_i_still_had_to/"
+        },
+        {
+          "source": "r/smallbusiness",
+          "title": "Three years ago my boss gave me 15% equity in our agency instead of a raise. Now I owe $14k in estim",
+          "date": "2026-06-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1twv2r9/three_years_ago_my_boss_gave_me_15_equity_in_our/"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 27,
+      "signal_count": 26,
       "evidence": [
         {
           "source": "r/smallbusiness",
@@ -78,11 +78,11 @@
           "url": "https://www.reddit.com/r/smallbusiness/comments/1twzxec/whats_one_purchase_under_100_that_made_running/"
         },
         {
-          "source": "r/smallbusiness",
-          "title": "What’s one purchase under $100 that made running your business easier?",
-          "date": "2026-06-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1twzxec/whats_one_purchase_under_100_that_made_running/"
+          "source": "r/SideProject",
+          "title": "Built a free AI toolkit for Marketplace flippers — looking for honest feedback (happy to return the ",
+          "date": "2026-06-05",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/SideProject/comments/1tx5r26/built_a_free_ai_toolkit_for_marketplace_flippers/"
         }
       ]
     },
@@ -99,7 +99,7 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 12,
+      "signal_count": 11,
       "evidence": [
         {
           "source": "r/ClaudeAI",
@@ -109,11 +109,11 @@
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1twhqty/claudes_referral_traffic_grew_386_in_4_monthsbut/"
         },
         {
-          "source": "r/ClaudeAI",
-          "title": "Claude's referral traffic grew 386% in 4 months—but the more interesting story is what people are us",
-          "date": "2026-06-04",
+          "source": "r/artificial",
+          "title": "Has any AI tool actually saved you significant time, or do they mostly just move the work around?",
+          "date": "2026-06-06",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1twhqty/claudes_referral_traffic_grew_386_in_4_monthsbut/"
+          "url": "https://www.reddit.com/r/artificial/comments/1ty94vq/has_any_ai_tool_actually_saved_you_significant/"
         }
       ]
     },
@@ -239,33 +239,6 @@
       ]
     },
     {
-      "theme": "5-советников",
-      "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
-      "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
-      "format": "карусель",
-      "cta": "ЗАЯВКИ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "i got tired of asking chatgpt for big decisions and getting one confident answer, so i built a thing",
-          "date": "2026-06-04",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/SideProject/comments/1twwajs/i_got_tired_of_asking_chatgpt_for_big_decisions/"
-        },
-        {
-          "source": "r/ClaudeAI",
-          "title": "How I use multiple claude agents to get more stuff done efficiently",
-          "date": "2026-06-05",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txlv8o/how_i_use_multiple_claude_agents_to_get_more/"
-        }
-      ]
-    },
-    {
       "theme": "кастомные-стили",
       "title": "Как один консультант зарабатывает $24k/мес — через кастомные стили Claude под каждую нишу",
       "angle": "Конкретный кейс: custom instructions под healthcare, legal, e-commerce. Клиенты думают, что он специализируется на их нише. Как повторить",
@@ -325,11 +298,11 @@
       ]
     },
     {
-      "theme": "seo-ии",
-      "title": "Один человек, ноль SEO-команды → 1,5 млн органики за 3 месяца через Claude",
-      "angle": "Конкретный процесс: Search Console → Claude → контент под пробелы → публикация. Реальные цифры, реальные шаги",
+      "theme": "5-советников",
+      "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
+      "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
       "format": "карусель",
-      "cta": "КЛИЕНТЫ",
+      "cta": "ЗАЯВКИ",
       "segment": "",
       "tools": [],
       "structure": "",
@@ -337,10 +310,10 @@
       "evidence": [
         {
           "source": "r/ClaudeAI",
-          "title": "Claude is my entire SEO team. 1.5M+ impressions in 3 months as a solo founder.",
-          "date": "2026-06-03",
-          "relevance": 8,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvjjdj/claude_is_my_entire_seo_team_15m_impressions_in_3/"
+          "title": "How I use multiple claude agents to get more stuff done efficiently",
+          "date": "2026-06-05",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txlv8o/how_i_use_multiple_claude_agents_to_get_more/"
         }
       ]
     },
