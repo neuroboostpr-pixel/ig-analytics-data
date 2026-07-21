@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T06:04:38.367462+00:00",
-  "source_posts_analyzed": 257,
+  "generated_at": "2026-07-21T22:00:01.849361+00:00",
+  "source_posts_analyzed": 259,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 38,
+      "signal_count": 39,
       "evidence": [
         {
           "source": "r/ClaudeAI",
