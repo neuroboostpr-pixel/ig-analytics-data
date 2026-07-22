@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T22:00:01.849361+00:00",
-  "source_posts_analyzed": 259,
+  "generated_at": "2026-07-22T06:06:08.001882+00:00",
+  "source_posts_analyzed": 223,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,21 +14,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 39,
+      "signal_count": 33,
       "evidence": [
         {
-          "source": "r/ClaudeAI",
-          "title": "if you used Claude to build your website, which skill helped your site not look like it was AI Gener",
-          "date": "2026-06-05",
+          "source": "r/Entrepreneur",
+          "title": "After weeks of complaining on Reddit, I finally launched my new agency and have decided on how I'm g",
+          "date": "2026-06-06",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txvaef/if_you_used_claude_to_build_your_website_which/"
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tyelh6/after_weeks_of_complaining_on_reddit_i_finally/"
         },
         {
-          "source": "r/ClaudeAI",
-          "title": "Claude isn't afraid to just be honest about what it and similar AI systems actually are: Affirmation",
-          "date": "2026-06-05",
+          "source": "r/smallbusiness",
+          "title": "Spending $3k/month on Google Ads with barely any ROI, where am I going wrong?",
+          "date": "2026-06-06",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1ty07de/claude_isnt_afraid_to_just_be_honest_about_what/"
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tywgcz/spending_3kmonth_on_google_ads_with_barely_any/"
         }
       ]
     },
@@ -41,21 +41,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 35,
+      "signal_count": 26,
       "evidence": [
         {
           "source": "r/ClaudeAI",
           "title": "I built a local PDF-to-Markdown converter so you don't have to burn LLM tokens.",
           "date": "2026-06-05",
-          "relevance": 7,
+          "relevance": 6,
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1txzrc6/i_built_a_local_pdftomarkdown_converter_so_you/"
         },
         {
-          "source": "r/artificial",
-          "title": "How I Use Website Issues to Stand Out in Cold Email",
+          "source": "r/Entrepreneur",
+          "title": "Need advice navigating with first client pricing.",
           "date": "2026-06-06",
-          "relevance": 10,
-          "url": "https://www.reddit.com/r/artificial/comments/1ty2scx/how_i_use_website_issues_to_stand_out_in_cold/"
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1ty1vbk/need_advice_navigating_with_first_client_pricing/"
         }
       ]
     },
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 24,
+      "signal_count": 23,
       "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "AI can write code. Why can't it manage the project?",
-          "date": "2026-06-06",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1tyb049/ai_can_write_code_why_cant_it_manage_the_project/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "Does anyone else wish AI tools shared the same memory?",
           "date": "2026-06-07",
           "relevance": 6,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1tze4er/does_anyone_else_wish_ai_tools_shared_the_same/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with ",
+          "date": "2026-06-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u08ofj/llm_relational_intelligence_a_4month_research/"
         }
       ]
     },
@@ -99,52 +99,21 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 10,
+      "signal_count": 9,
       "evidence": [
-        {
-          "source": "r/artificial",
-          "title": "Has any AI tool actually saved you significant time, or do they mostly just move the work around?",
-          "date": "2026-06-06",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1ty94vq/has_any_ai_tool_actually_saved_you_significant/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "She’s really winning me over!",
           "date": "2026-06-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1tzueto/shes_really_winning_me_over/"
-        }
-      ]
-    },
-    {
-      "theme": "первый-результат-новичок",
-      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
-      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "Новички",
-      "tools": [
-        "Claude",
-        "Zapier",
-        "Notion"
-      ],
-      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 4,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "I posted about using ChatGPT as therapy got 100K views and 250 dollars in preorders then the App Sto",
-          "date": "2026-06-06",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1tysaav/i_posted_about_using_chatgpt_as_therapy_got_100k/"
         },
         {
-          "source": "r/Entrepreneur",
-          "title": "Successful entrepreneurs, what is your AI stack looking like today?",
-          "date": "2026-06-22",
+          "source": "r/marketing",
+          "title": "How are you tracking B2B Lead Sources from LLMS and Socials?",
+          "date": "2026-06-09",
           "relevance": 6,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1ucg3ku/successful_entrepreneurs_what_is_your_ai_stack/"
+          "url": "https://www.reddit.com/r/marketing/comments/1u16wnd/how_are_you_tracking_b2b_lead_sources_from_llms/"
         }
       ]
     },
@@ -239,6 +208,37 @@
       ]
     },
     {
+      "theme": "первый-результат-новичок",
+      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
+      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Новички",
+      "tools": [
+        "Claude",
+        "Zapier",
+        "Notion"
+      ],
+      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/Entrepreneur",
+          "title": "Successful entrepreneurs, what is your AI stack looking like today?",
+          "date": "2026-06-22",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1ucg3ku/successful_entrepreneurs_what_is_your_ai_stack/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Do you think ChatGPT gives good life advice?",
+          "date": "2026-06-26",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ufzalc/do_you_think_chatgpt_gives_good_life_advice/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -267,30 +267,6 @@
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
-        }
-      ]
-    },
-    {
-      "theme": "zapier-make-n8n",
-      "title": "Zapier vs Make vs n8n: честный выбор без маркетинга для бизнеса без DevOps",
-      "angle": "Предприниматель/специалист не знает что выбрать для автоматизации. Конкретные сценарии: какой инструмент под какую задачу, сравнение по цене и порогу входа",
-      "format": "карусель",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Zapier",
-        "Make (Integromat)",
-        "n8n"
-      ],
-      "structure": "1. Таблица сравнения (цена/сложность/возможности). 2. Сценарий A: лид-менеджмент — что выбрать. 3. Сценарий B: контент-автоматизация — что выбрать. 4. Правило выбора за 30 секунд",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Local AI meetup in Southlake TX",
-          "date": "2026-06-05",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txyhz7/local_ai_meetup_in_southlake_tx/"
         }
       ]
     },
