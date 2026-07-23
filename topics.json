@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T22:00:02.037366+00:00",
-  "source_posts_analyzed": 224,
+  "generated_at": "2026-07-23T06:04:49.782932+00:00",
+  "source_posts_analyzed": 198,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 33,
+      "signal_count": 30,
       "evidence": [
         {
           "source": "r/Entrepreneur",
@@ -24,38 +24,11 @@
           "url": "https://www.reddit.com/r/Entrepreneur/comments/1tyelh6/after_weeks_of_complaining_on_reddit_i_finally/"
         },
         {
-          "source": "r/smallbusiness",
-          "title": "Spending $3k/month on Google Ads with barely any ROI, where am I going wrong?",
-          "date": "2026-06-06",
+          "source": "r/ChatGPT",
+          "title": "What happens if AI takes most jobs?",
+          "date": "2026-06-08",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1tywgcz/spending_3kmonth_on_google_ads_with_barely_any/"
-        }
-      ]
-    },
-    {
-      "theme": "автоматизация-продаж",
-      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
-      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 26,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "I built a local PDF-to-Markdown converter so you don't have to burn LLM tokens.",
-          "date": "2026-06-05",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1txzrc6/i_built_a_local_pdftomarkdown_converter_so_you/"
-        },
-        {
-          "source": "r/Entrepreneur",
-          "title": "Need advice navigating with first client pricing.",
-          "date": "2026-06-06",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1ty1vbk/need_advice_navigating_with_first_client_pricing/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u008iq/what_happens_if_ai_takes_most_jobs/"
         }
       ]
     },
@@ -68,21 +41,48 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 23,
+      "signal_count": 22,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Does anyone else wish AI tools shared the same memory?",
-          "date": "2026-06-07",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1tze4er/does_anyone_else_wish_ai_tools_shared_the_same/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with ",
           "date": "2026-06-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1u08ofj/llm_relational_intelligence_a_4month_research/"
+        },
+        {
+          "source": "r/artificial",
+          "title": "LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with ",
+          "date": "2026-06-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1u08nk8/llm_relational_intelligence_a_4month_research/"
+        }
+      ]
+    },
+    {
+      "theme": "автоматизация-продаж",
+      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
+      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 19,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Im ready to level up my Claude game. Please help!",
+          "date": "2026-06-07",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzlobo/im_ready_to_level_up_my_claude_game_please_help/"
+        },
+        {
+          "source": "r/artificial",
+          "title": "How I built an AI email agent that processes 15,000 hotel guest emails per day. full architecture br",
+          "date": "2026-06-07",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1tz8vm2/how_i_built_an_ai_email_agent_that_processes/"
         }
       ]
     },
@@ -141,37 +141,6 @@
           "date": "2026-06-08",
           "relevance": 9,
           "url": "https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/"
-        }
-      ]
-    },
-    {
-      "theme": "notion-база-знаний",
-      "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
-      "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "Эксперты / контентщики",
-      "tools": [
-        "Notion AI",
-        "Claude",
-        "Readwise"
-      ],
-      "structure": "1. Где люди хранят знания (и почему это проблема). 2. Структура базы (4 раздела). 3. Как Notion AI ищет по ней. 4. Шаблон для быстрого старта",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "How do you keep your Claude conversations organized?",
-          "date": "2026-06-07",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tz77wq/how_do_you_keep_your_claude_conversations/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "That's how I use automations and apps to make my job easier. Wow you do it?",
-          "date": "2026-06-10",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u23vv2/thats_how_i_use_automations_and_apps_to_make_my/"
         }
       ]
     },
@@ -239,6 +208,37 @@
       ]
     },
     {
+      "theme": "notion-база-знаний",
+      "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
+      "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Эксперты / контентщики",
+      "tools": [
+        "Notion AI",
+        "Claude",
+        "Readwise"
+      ],
+      "structure": "1. Где люди хранят знания (и почему это проблема). 2. Структура базы (4 раздела). 3. Как Notion AI ищет по ней. 4. Шаблон для быстрого старта",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "That's how I use automations and apps to make my job easier. Wow you do it?",
+          "date": "2026-06-10",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u23vv2/thats_how_i_use_automations_and_apps_to_make_my/"
+        },
+        {
+          "source": "r/SideProject",
+          "title": "Subprompt - Camera/Voice/Text app to use with AI workflows",
+          "date": "2026-06-11",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/SideProject/comments/1u2mlq5/subprompt_cameravoicetext_app_to_use_with_ai/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -267,26 +267,6 @@
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
-        }
-      ]
-    },
-    {
-      "theme": "solo-с-ии",
-      "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
-      "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "How would you get the first 100 beta users for an email marketing SaaS?",
-          "date": "2026-06-07",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1tz90zs/how_would_you_get_the_first_100_beta_users_for_an/"
         }
       ]
     },
