@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T22:00:02.321200+00:00",
-  "source_posts_analyzed": 200,
+  "generated_at": "2026-07-24T06:05:00.188457+00:00",
+  "source_posts_analyzed": 170,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,21 +14,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 30,
+      "signal_count": 26,
       "evidence": [
         {
-          "source": "r/Entrepreneur",
-          "title": "After weeks of complaining on Reddit, I finally launched my new agency and have decided on how I'm g",
-          "date": "2026-06-06",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1tyelh6/after_weeks_of_complaining_on_reddit_i_finally/"
+          "source": "r/ClaudeAI",
+          "title": "Built and launched a travel planning website with Claude + Cursor over a few weekends. Here are the ",
+          "date": "2026-06-09",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0tk09/built_and_launched_a_travel_planning_website_with/"
         },
         {
-          "source": "r/ChatGPT",
-          "title": "What happens if AI takes most jobs?",
-          "date": "2026-06-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u008iq/what_happens_if_ai_takes_most_jobs/"
+          "source": "r/smallbusiness",
+          "title": "Im a cloud kitchen owner looking to handle marketing of my business and increase sales and brand awa",
+          "date": "2026-06-09",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u0y25h/im_a_cloud_kitchen_owner_looking_to_handle/"
         }
       ]
     },
@@ -41,21 +41,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 22,
+      "signal_count": 18,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with ",
-          "date": "2026-06-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u08ofj/llm_relational_intelligence_a_4month_research/"
-        },
         {
           "source": "r/artificial",
           "title": "LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with ",
           "date": "2026-06-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/artificial/comments/1u08nk8/llm_relational_intelligence_a_4month_research/"
+        },
+        {
+          "source": "r/Entrepreneur",
+          "title": "Advice for acquisition entrepreneurship",
+          "date": "2026-06-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1u0637y/advice_for_acquisition_entrepreneurship/"
         }
       ]
     },
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 19,
+      "signal_count": 16,
       "evidence": [
         {
           "source": "r/ClaudeAI",
-          "title": "Im ready to level up my Claude game. Please help!",
-          "date": "2026-06-07",
+          "title": "Claude routines are making me rethink client automation work",
+          "date": "2026-06-09",
           "relevance": 6,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1tzlobo/im_ready_to_level_up_my_claude_game_please_help/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0xm1n/claude_routines_are_making_me_rethink_client/"
         },
         {
-          "source": "r/artificial",
-          "title": "How I built an AI email agent that processes 15,000 hotel guest emails per day. full architecture br",
-          "date": "2026-06-07",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1tz8vm2/how_i_built_an_ai_email_agent_that_processes/"
+          "source": "r/Entrepreneur",
+          "title": "Strong operator / OBM rebuilding after a hard reset. Looking for the right seat, business idea or th",
+          "date": "2026-06-09",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1u0y09f/strong_operator_obm_rebuilding_after_a_hard_reset/"
         }
       ]
     },
@@ -99,14 +99,14 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 9,
+      "signal_count": 8,
       "evidence": [
         {
-          "source": "r/ChatGPT",
-          "title": "She’s really winning me over!",
-          "date": "2026-06-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1tzueto/shes_really_winning_me_over/"
+          "source": "r/marketing",
+          "title": "How are you tracking B2B Lead Sources from LLMS and Socials?",
+          "date": "2026-06-09",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/marketing/comments/1u16wnd/how_are_you_tracking_b2b_lead_sources_from_llms/"
         },
         {
           "source": "r/marketing",
@@ -126,7 +126,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 4,
+      "signal_count": 3,
       "evidence": [
         {
           "source": "r/artificial",
@@ -136,11 +136,11 @@
           "url": "https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/"
         },
         {
-          "source": "r/artificial",
-          "title": "Feel like I'm becoming the glue between many AI tools",
-          "date": "2026-06-08",
-          "relevance": 9,
-          "url": "https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/"
+          "source": "r/SideProject",
+          "title": "I was tired re-explaining to every AI tool, So I built Donkey",
+          "date": "2026-06-09",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/SideProject/comments/1u120nj/i_was_tired_reexplaining_to_every_ai_tool_so_i/"
         }
       ]
     },
@@ -267,31 +267,6 @@
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
-        }
-      ]
-    },
-    {
-      "theme": "ai-hr-наём",
-      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
-      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Claude",
-        "n8n",
-        "Airtable",
-        "Notion"
-      ],
-      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "I built a 16-step multi-agent content pipeline. Claude runs the writing and reasoning agents. Here i",
-          "date": "2026-06-08",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0araf/i_built_a_16step_multiagent_content_pipeline/"
         }
       ]
     },
