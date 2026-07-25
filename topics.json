@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T22:00:02.345531+00:00",
-  "source_posts_analyzed": 171,
+  "generated_at": "2026-07-25T06:06:54.640686+00:00",
+  "source_posts_analyzed": 131,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,21 +14,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 26,
+      "signal_count": 20,
       "evidence": [
         {
-          "source": "r/ClaudeAI",
-          "title": "Built and launched a travel planning website with Claude + Cursor over a few weekends. Here are the ",
-          "date": "2026-06-09",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0tk09/built_and_launched_a_travel_planning_website_with/"
+          "source": "r/SideProject",
+          "title": "I built a dark-mode data cockpit for high-volume Meta media buyers to track metrics in real time",
+          "date": "2026-06-10",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1u1q2k0/i_built_a_darkmode_data_cockpit_for_highvolume/"
         },
         {
-          "source": "r/smallbusiness",
-          "title": "Im a cloud kitchen owner looking to handle marketing of my business and increase sales and brand awa",
-          "date": "2026-06-09",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1u0y25h/im_a_cloud_kitchen_owner_looking_to_handle/"
+          "source": "r/Entrepreneur",
+          "title": "Successful Entrepreneurs, What was the biggest impact AI had in your business?",
+          "date": "2026-06-10",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1u1t1lf/successful_entrepreneurs_what_was_the_biggest/"
         }
       ]
     },
@@ -41,21 +41,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 18,
+      "signal_count": 14,
       "evidence": [
-        {
-          "source": "r/artificial",
-          "title": "LLM Relational Intelligence: A 4-Month Research Experiment on Multi-Model Behavioral Alignment with ",
-          "date": "2026-06-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1u08nk8/llm_relational_intelligence_a_4month_research/"
-        },
         {
           "source": "r/Entrepreneur",
           "title": "Advice for acquisition entrepreneurship",
           "date": "2026-06-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/Entrepreneur/comments/1u0637y/advice_for_acquisition_entrepreneurship/"
+        },
+        {
+          "source": "r/smallbusiness",
+          "title": "I know nothing about business. Where should I start before opening my first project?",
+          "date": "2026-06-10",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u1n70y/i_know_nothing_about_business_where_should_i/"
         }
       ]
     },
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 16,
+      "signal_count": 10,
       "evidence": [
         {
-          "source": "r/ClaudeAI",
-          "title": "Claude routines are making me rethink client automation work",
-          "date": "2026-06-09",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0xm1n/claude_routines_are_making_me_rethink_client/"
+          "source": "r/ChatGPT",
+          "title": "The Perfect Tech Stack for online Markerting (Business Edition)",
+          "date": "2026-06-10",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u237ql/the_perfect_tech_stack_for_online_markerting/"
         },
         {
-          "source": "r/Entrepreneur",
-          "title": "Strong operator / OBM rebuilding after a hard reset. Looking for the right seat, business idea or th",
-          "date": "2026-06-09",
-          "relevance": 8,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1u0y09f/strong_operator_obm_rebuilding_after_a_hard_reset/"
+          "source": "r/SideProject",
+          "title": "How to automate Google reviews with AI directly inside your Google Business Profile dashboard to ran",
+          "date": "2026-06-10",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/SideProject/comments/1u21p50/how_to_automate_google_reviews_with_ai_directly/"
         }
       ]
     },
@@ -99,7 +99,7 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 8,
+      "signal_count": 7,
       "evidence": [
         {
           "source": "r/marketing",
@@ -109,38 +109,11 @@
           "url": "https://www.reddit.com/r/marketing/comments/1u16wnd/how_are_you_tracking_b2b_lead_sources_from_llms/"
         },
         {
-          "source": "r/marketing",
-          "title": "How are you tracking B2B Lead Sources from LLMS and Socials?",
-          "date": "2026-06-09",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/marketing/comments/1u16wnd/how_are_you_tracking_b2b_lead_sources_from_llms/"
-        }
-      ]
-    },
-    {
-      "theme": "клей-между-инструментами",
-      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
-      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/artificial",
-          "title": "Feel like I'm becoming the glue between many AI tools",
-          "date": "2026-06-08",
-          "relevance": 9,
-          "url": "https://www.reddit.com/r/artificial/comments/1u0192r/feel_like_im_becoming_the_glue_between_many_ai/"
-        },
-        {
-          "source": "r/SideProject",
-          "title": "I was tired re-explaining to every AI tool, So I built Donkey",
-          "date": "2026-06-09",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/SideProject/comments/1u120nj/i_was_tired_reexplaining_to_every_ai_tool_so_i/"
+          "source": "r/ChatGPT",
+          "title": "The AI ranking nobody asked for but everyone needs in 2025:",
+          "date": "2026-06-10",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u1tmvd/the_ai_ranking_nobody_asked_for_but_everyone/"
         }
       ]
     },
@@ -292,6 +265,26 @@
           "date": "2026-06-10",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1u2cjc6/help_building_my_first_product_after_getting/"
+        }
+      ]
+    },
+    {
+      "theme": "клей-между-инструментами",
+      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
+      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "I built an AI-powered operating system for solo founders — handles business advising, tasks, financi",
+          "date": "2026-06-10",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/SideProject/comments/1u2cjaw/i_built_an_aipowered_operating_system_for_solo/"
         }
       ]
     },
