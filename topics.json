@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T06:07:05.720739+00:00",
-  "source_posts_analyzed": 98,
+  "generated_at": "2026-07-26T22:00:01.461229+00:00",
+  "source_posts_analyzed": 99,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -41,7 +41,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 11,
+      "signal_count": 12,
       "evidence": [
         {
           "source": "r/ChatGPT",
