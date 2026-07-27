@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-07-26T22:00:01.461229+00:00",
-  "source_posts_analyzed": 99,
+  "generated_at": "2026-07-27T06:08:06.973548+00:00",
+  "source_posts_analyzed": 71,
   "ideas": [
+    {
+      "theme": "ai-для-решений",
+      "title": "5 советников вместо одного ChatGPT: как принимать решения без галлюцинаций",
+      "angle": "Промпт-фреймворк для важных решений: роли, углы, стресс-тест. Работает для инвестиций, найма, запуска продукта",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 10,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "have you taken advice from ai that you later regretted?",
+          "date": "2026-06-12",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u3ptc7/have_you_taken_advice_from_ai_that_you_later/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "The best investing use case I've found for ChatGPT isn't stock picking",
+          "date": "2026-06-12",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u3wixt/the_best_investing_use_case_ive_found_for_chatgpt/"
+        }
+      ]
+    },
     {
       "theme": "рост-чека",
       "title": "Как ИИ помогает фрилансеру держать чек, когда клиенты говорят «ChatGPT это сам сделает»",
@@ -14,106 +41,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 15,
+      "signal_count": 10,
       "evidence": [
         {
           "source": "r/ChatGPT",
-          "title": "r/ChatGPT Feels Increasingly Like an AI Image Sub",
-          "date": "2026-06-10",
+          "title": "What’s the most useful thing ChatGPT has built for you?",
+          "date": "2026-06-13",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u2gc0g/rchatgpt_feels_increasingly_like_an_ai_image_sub/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4lwq8/whats_the_most_useful_thing_chatgpt_has_built_for/"
         },
         {
-          "source": "r/Entrepreneur",
-          "title": "Successful Entrepreneurs, What was the biggest impact AI had in your business?",
-          "date": "2026-06-10",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1u1t1lf/successful_entrepreneurs_what_was_the_biggest/"
-        }
-      ]
-    },
-    {
-      "theme": "ai-для-решений",
-      "title": "5 советников вместо одного ChatGPT: как принимать решения без галлюцинаций",
-      "angle": "Промпт-фреймворк для важных решений: роли, углы, стресс-тест. Работает для инвестиций, найма, запуска продукта",
-      "format": "карусель",
-      "cta": "ЗАЯВКИ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 12,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Anyone else notice their relationship with their own judgment has changed from using ChatGPT?",
-          "date": "2026-06-11",
+          "source": "r/LocalLLaMA",
+          "title": "Which open source model is the best model for brainstorming, strategizing, out of the box thinking a",
+          "date": "2026-06-19",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u2jhrv/anyone_else_notice_their_relationship_with_their/"
-        },
-        {
-          "source": "r/smallbusiness",
-          "title": "What type of marketing should i invest into?",
-          "date": "2026-06-10",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1u2f0v8/what_type_of_marketing_should_i_invest_into/"
-        }
-      ]
-    },
-    {
-      "theme": "автоматизация-продаж",
-      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
-      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 6,
-      "evidence": [
-        {
-          "source": "r/marketing",
-          "title": "Performance Marketing Intern Here – Trying to Understand Meta Ads Beyond Just “Getting Leads”",
-          "date": "2026-06-10",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/marketing/comments/1u23iei/performance_marketing_intern_here_trying_to/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "Make Stunning Tree Diagrams with ChatGPT In Seconds!",
-          "date": "2026-06-11",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u2r540/make_stunning_tree_diagrams_with_chatgpt_in/"
-        }
-      ]
-    },
-    {
-      "theme": "perplexity-исследование",
-      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
-      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
-      "format": "пост",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Perplexity",
-        "Claude",
-        "Exa.ai"
-      ],
-      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 4,
-      "evidence": [
-        {
-          "source": "r/marketing",
-          "title": "How are you tracking B2B Lead Sources from LLMS and Socials?",
-          "date": "2026-06-09",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/marketing/comments/1u16wnd/how_are_you_tracking_b2b_lead_sources_from_llms/"
-        },
-        {
-          "source": "r/SideProject",
-          "title": "Built a done-for-you \"AI search optimization\" service for local businesses, want a gut-check on the ",
-          "date": "2026-06-11",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/SideProject/comments/1u2teck/built_a_doneforyou_ai_search_optimization_service/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua0wvw/which_open_source_model_is_the_best_model_for/"
         }
       ]
     },
@@ -181,6 +123,33 @@
       ]
     },
     {
+      "theme": "автоматизация-продаж",
+      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
+      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/smallbusiness",
+          "title": "Need suggestions on how to get more leads and clients",
+          "date": "2026-06-24",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uee5li/need_suggestions_on_how_to_get_more_leads_and/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I built a free tool that rewrites your bad ChatGPT prompts into good ones (before/after inside)",
+          "date": "2026-07-07",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uphmnd/i_built_a_free_tool_that_rewrites_your_bad/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -213,30 +182,6 @@
       ]
     },
     {
-      "theme": "notion-база-знаний",
-      "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
-      "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "Эксперты / контентщики",
-      "tools": [
-        "Notion AI",
-        "Claude",
-        "Readwise"
-      ],
-      "structure": "1. Где люди хранят знания (и почему это проблема). 2. Структура базы (4 раздела). 3. Как Notion AI ищет по ней. 4. Шаблон для быстрого старта",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "Subprompt - Camera/Voice/Text app to use with AI workflows",
-          "date": "2026-06-11",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1u2mlq5/subprompt_cameravoicetext_app_to_use_with_ai/"
-        }
-      ]
-    },
-    {
       "theme": "кастомные-стили",
       "title": "Как один консультант зарабатывает $24k/мес — через кастомные стили Claude под каждую нишу",
       "angle": "Конкретный кейс: custom instructions под healthcare, legal, e-commerce. Клиенты думают, что он специализируется на их нише. Как повторить",
@@ -253,6 +198,50 @@
           "date": "2026-06-27",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1ugt37u/is_there_a_reason_for_chatgpt_always_agreeing/"
+        }
+      ]
+    },
+    {
+      "theme": "perplexity-исследование",
+      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
+      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
+      "format": "пост",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Perplexity",
+        "Claude",
+        "Exa.ai"
+      ],
+      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "Has anyone actually gotten their ChatGPT Health invite? It's been 84 years...",
+          "date": "2026-07-13",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvook8/has_anyone_actually_gotten_their_chatgpt_health/"
+        }
+      ]
+    },
+    {
+      "theme": "клей-между-инструментами",
+      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
+      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/LocalLLaMA",
+          "title": "What's your biggest pain point with AI tooling right now?",
+          "date": "2026-07-26",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7h67o/whats_your_biggest_pain_point_with_ai_tooling/"
         }
       ]
     }
