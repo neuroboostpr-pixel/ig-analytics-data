@@ -1,34 +1,7 @@
 {
-  "generated_at": "2026-07-27T22:00:02.084151+00:00",
-  "source_posts_analyzed": 71,
+  "generated_at": "2026-07-28T06:05:06.905411+00:00",
+  "source_posts_analyzed": 68,
   "ideas": [
-    {
-      "theme": "ai-для-решений",
-      "title": "5 советников вместо одного ChatGPT: как принимать решения без галлюцинаций",
-      "angle": "Промпт-фреймворк для важных решений: роли, углы, стресс-тест. Работает для инвестиций, найма, запуска продукта",
-      "format": "карусель",
-      "cta": "ЗАЯВКИ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 10,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "have you taken advice from ai that you later regretted?",
-          "date": "2026-06-12",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u3ptc7/have_you_taken_advice_from_ai_that_you_later/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "The best investing use case I've found for ChatGPT isn't stock picking",
-          "date": "2026-06-12",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u3wixt/the_best_investing_use_case_ive_found_for_chatgpt/"
-        }
-      ]
-    },
     {
       "theme": "рост-чека",
       "title": "Как ИИ помогает фрилансеру держать чек, когда клиенты говорят «ChatGPT это сам сделает»",
@@ -56,6 +29,33 @@
           "date": "2026-06-19",
           "relevance": 5,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua0wvw/which_open_source_model_is_the_best_model_for/"
+        }
+      ]
+    },
+    {
+      "theme": "ai-для-решений",
+      "title": "5 советников вместо одного ChatGPT: как принимать решения без галлюцинаций",
+      "angle": "Промпт-фреймворк для важных решений: роли, углы, стресс-тест. Работает для инвестиций, найма, запуска продукта",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 8,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "About to launch my business thanks to ChatGPT!",
+          "date": "2026-06-21",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubpoq6/about_to_launch_my_business_thanks_to_chatgpt/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "About to launch my business thanks to ChatGPT!",
+          "date": "2026-06-21",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubpoq6/about_to_launch_my_business_thanks_to_chatgpt/"
         }
       ]
     },
