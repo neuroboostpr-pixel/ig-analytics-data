@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T22:00:02.122655+00:00",
-  "source_posts_analyzed": 70,
+  "generated_at": "2026-07-29T06:04:52.859395+00:00",
+  "source_posts_analyzed": 72,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -17,18 +17,18 @@
       "signal_count": 11,
       "evidence": [
         {
-          "source": "r/ChatGPT",
-          "title": "What’s the most useful thing ChatGPT has built for you?",
-          "date": "2026-06-13",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1u4lwq8/whats_the_most_useful_thing_chatgpt_has_built_for/"
-        },
-        {
           "source": "r/LocalLLaMA",
           "title": "Which open source model is the best model for brainstorming, strategizing, out of the box thinking a",
           "date": "2026-06-19",
           "relevance": 5,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua0wvw/which_open_source_model_is_the_best_model_for/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "ChatGPT has done 80% of my job for 2 years",
+          "date": "2026-06-23",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1udjw2m/chatgpt_has_done_80_of_my_job_for_2_years/"
         }
       ]
     },
