@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T22:00:01.368624+00:00",
-  "source_posts_analyzed": 80,
+  "generated_at": "2026-08-03T06:06:03.024990+00:00",
+  "source_posts_analyzed": 81,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 13,
+      "signal_count": 14,
       "evidence": [
         {
           "source": "r/LocalLLaMA",
