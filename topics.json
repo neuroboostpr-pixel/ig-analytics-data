@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T06:05:33.550699+00:00",
-  "source_posts_analyzed": 79,
+  "generated_at": "2026-08-04T22:00:01.942543+00:00",
+  "source_posts_analyzed": 83,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -41,7 +41,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 9,
+      "signal_count": 11,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -72,7 +72,7 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 3,
+      "signal_count": 4,
       "evidence": [
         {
           "source": "r/Entrepreneur",
