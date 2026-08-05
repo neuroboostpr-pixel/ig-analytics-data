@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T06:05:37.766273+00:00",
-  "source_posts_analyzed": 82,
+  "generated_at": "2026-08-05T22:00:01.334887+00:00",
+  "source_posts_analyzed": 91,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 13,
+      "signal_count": 15,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -60,6 +60,33 @@
       ]
     },
     {
+      "theme": "автоматизация-продаж",
+      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
+      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 5,
+      "evidence": [
+        {
+          "source": "r/smallbusiness",
+          "title": "Need suggestions on how to get more leads and clients",
+          "date": "2026-06-24",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uee5li/need_suggestions_on_how_to_get_more_leads_and/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I built a free tool that rewrites your bad ChatGPT prompts into good ones (before/after inside)",
+          "date": "2026-07-07",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uphmnd/i_built_a_free_tool_that_rewrites_your_bad/"
+        }
+      ]
+    },
+    {
       "theme": "первый-результат-новичок",
       "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
       "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
@@ -87,33 +114,6 @@
           "date": "2026-06-26",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1ufzalc/do_you_think_chatgpt_gives_good_life_advice/"
-        }
-      ]
-    },
-    {
-      "theme": "автоматизация-продаж",
-      "title": "Как автоматизировать первый контакт с клиентом — без спама и без менеджера",
-      "angle": "Реальный кейс: холодный email → квалификация → КП через ИИ-связку. Что взять, что не брать",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/smallbusiness",
-          "title": "Need suggestions on how to get more leads and clients",
-          "date": "2026-06-24",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1uee5li/need_suggestions_on_how_to_get_more_leads_and/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "I built a free tool that rewrites your bad ChatGPT prompts into good ones (before/after inside)",
-          "date": "2026-07-07",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uphmnd/i_built_a_free_tool_that_rewrites_your_bad/"
         }
       ]
     },
