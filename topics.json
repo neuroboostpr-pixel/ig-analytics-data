@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T22:00:01.334887+00:00",
-  "source_posts_analyzed": 91,
+  "generated_at": "2026-08-06T06:04:42.426073+00:00",
+  "source_posts_analyzed": 97,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 15,
+      "signal_count": 16,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -41,7 +41,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 12,
+      "signal_count": 11,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -52,10 +52,10 @@
         },
         {
           "source": "r/ChatGPT",
-          "title": "About to launch my business thanks to ChatGPT!",
-          "date": "2026-06-21",
+          "title": "Thinking of moving from my Claude Pro to ChatGPT Plus (currently have go), is it the right decision?",
+          "date": "2026-07-03",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubpoq6/about_to_launch_my_business_thanks_to_chatgpt/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1um7hii/thinking_of_moving_from_my_claude_pro_to_chatgpt/"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 5,
+      "signal_count": 7,
       "evidence": [
         {
           "source": "r/smallbusiness",
