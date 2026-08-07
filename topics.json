@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T22:00:02.074849+00:00",
-  "source_posts_analyzed": 104,
+  "generated_at": "2026-08-07T06:06:47.625812+00:00",
+  "source_posts_analyzed": 109,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 17,
+      "signal_count": 19,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -41,21 +41,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 13,
+      "signal_count": 12,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "About to launch my business thanks to ChatGPT!",
-          "date": "2026-06-21",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ubpoq6/about_to_launch_my_business_thanks_to_chatgpt/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "Thinking of moving from my Claude Pro to ChatGPT Plus (currently have go), is it the right decision?",
           "date": "2026-07-03",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1um7hii/thinking_of_moving_from_my_claude_pro_to_chatgpt/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "At what point does an AI conversation become \"knowledge\" instead of \"just a chat\"?",
+          "date": "2026-07-07",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1upn3iu/at_what_point_does_an_ai_conversation_become/"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 8,
+      "signal_count": 9,
       "evidence": [
         {
           "source": "r/smallbusiness",
@@ -242,6 +242,26 @@
           "date": "2026-07-26",
           "relevance": 6,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7h67o/whats_your_biggest_pain_point_with_ai_tooling/"
+        }
+      ]
+    },
+    {
+      "theme": "5-советников",
+      "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
+      "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
+      "format": "карусель",
+      "cta": "ЗАЯВКИ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "I made 20 stick-figure memes about my own product because I have no marketing budget. Roast the meme",
+          "date": "2026-08-07",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vhokaz/i_made_20_stickfigure_memes_about_my_own_product/"
         }
       ]
     }
