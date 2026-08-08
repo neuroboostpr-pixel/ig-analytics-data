@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T22:00:02.173971+00:00",
-  "source_posts_analyzed": 124,
+  "generated_at": "2026-08-08T06:08:06.282403+00:00",
+  "source_posts_analyzed": 122,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,7 +14,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 21,
+      "signal_count": 20,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -24,11 +24,11 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1udjw2m/chatgpt_has_done_80_of_my_job_for_2_years/"
         },
         {
-          "source": "r/ChatGPT",
-          "title": "ChatGPT has done 80% of my job for 2 years",
-          "date": "2026-06-23",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udjw2m/chatgpt_has_done_80_of_my_job_for_2_years/"
+          "source": "r/smallbusiness",
+          "title": "What's one marketing strategy that actually worked for your business in 2026?",
+          "date": "2026-06-24",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uebyla/whats_one_marketing_strategy_that_actually_worked/"
         }
       ]
     },
@@ -99,21 +99,21 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 5,
+      "signal_count": 4,
       "evidence": [
-        {
-          "source": "r/Entrepreneur",
-          "title": "Successful entrepreneurs, what is your AI stack looking like today?",
-          "date": "2026-06-22",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1ucg3ku/successful_entrepreneurs_what_is_your_ai_stack/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "Do you think ChatGPT gives good life advice?",
           "date": "2026-06-26",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1ufzalc/do_you_think_chatgpt_gives_good_life_advice/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
+          "date": "2026-07-14",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
         }
       ]
     },
