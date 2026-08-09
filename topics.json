@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T22:00:02.196657+00:00",
-  "source_posts_analyzed": 137,
+  "generated_at": "2026-08-09T06:06:35.048785+00:00",
+  "source_posts_analyzed": 139,
   "ideas": [
     {
       "theme": "рост-чека",
@@ -14,21 +14,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 21,
+      "signal_count": 19,
       "evidence": [
         {
           "source": "r/ChatGPT",
-          "title": "ChatGPT has done 80% of my job for 2 years",
-          "date": "2026-06-23",
+          "title": "Copy-and-paste prompt for understanding the current ChatGPT ecosystem",
+          "date": "2026-07-12",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1udjw2m/chatgpt_has_done_80_of_my_job_for_2_years/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uuhdo1/copyandpaste_prompt_for_understanding_the_current/"
         },
         {
-          "source": "r/smallbusiness",
-          "title": "What's one marketing strategy that actually worked for your business in 2026?",
-          "date": "2026-06-24",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1uebyla/whats_one_marketing_strategy_that_actually_worked/"
+          "source": "r/ChatGPT",
+          "title": "I asked Gemini and ChatGPT to create an image of Mad Eye Moody based solely on the book descriptions",
+          "date": "2026-07-19",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v0g5c2/i_asked_gemini_and_chatgpt_to_create_an_image_of/"
         }
       ]
     },
@@ -41,21 +41,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 17,
+      "signal_count": 18,
       "evidence": [
-        {
-          "source": "r/smallbusiness",
-          "title": "Need suggestions on how to get more leads and clients",
-          "date": "2026-06-24",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1uee5li/need_suggestions_on_how_to_get_more_leads_and/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "I built a free tool that rewrites your bad ChatGPT prompts into good ones (before/after inside)",
           "date": "2026-07-07",
           "relevance": 7,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1uphmnd/i_built_a_free_tool_that_rewrites_your_bad/"
+        },
+        {
+          "source": "r/artificial",
+          "title": "Anyone else using AI writing tools for both clinical and marketing copy? The context switching is ki",
+          "date": "2026-08-05",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1vg75af/anyone_else_using_ai_writing_tools_for_both/"
         }
       ]
     },
@@ -209,6 +209,37 @@
       ]
     },
     {
+      "theme": "gamma-презентации",
+      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
+      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
+      "format": "рилс",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Gamma",
+        "Claude",
+        "Beautiful.ai"
+      ],
+      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
+          "date": "2026-08-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
+          "date": "2026-08-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
+        }
+      ]
+    },
+    {
       "theme": "кастомные-стили",
       "title": "Как один консультант зарабатывает $24k/мес — через кастомные стили Claude под каждую нишу",
       "angle": "Конкретный кейс: custom instructions под healthcare, legal, e-commerce. Клиенты думают, что он специализируется на их нише. Как повторить",
@@ -269,30 +300,6 @@
           "date": "2026-08-07",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vhokaz/i_made_20_stickfigure_memes_about_my_own_product/"
-        }
-      ]
-    },
-    {
-      "theme": "gamma-презентации",
-      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
-      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
-      "format": "рилс",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Gamma",
-        "Claude",
-        "Beautiful.ai"
-      ],
-      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
-          "date": "2026-08-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
         }
       ]
     }
