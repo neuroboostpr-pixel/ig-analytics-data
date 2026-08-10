@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:00:01.723124+00:00",
+  "generated_at": "2026-08-10T06:05:15.704145+00:00",
   "source_posts_analyzed": 154,
   "ideas": [
     {
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 20,
+      "signal_count": 22,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -118,6 +118,37 @@
       ]
     },
     {
+      "theme": "perplexity-исследование",
+      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
+      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
+      "format": "пост",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Perplexity",
+        "Claude",
+        "Exa.ai"
+      ],
+      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "Has anyone actually gotten their ChatGPT Health invite? It's been 84 years...",
+          "date": "2026-07-13",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvook8/has_anyone_actually_gotten_their_chatgpt_health/"
+        },
+        {
+          "source": "r/artificial",
+          "title": "Is the war of the technology between giant nations?",
+          "date": "2026-08-09",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
+        }
+      ]
+    },
+    {
       "theme": "локальные-модели",
       "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
       "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
@@ -178,37 +209,6 @@
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
-        }
-      ]
-    },
-    {
-      "theme": "perplexity-исследование",
-      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
-      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
-      "format": "пост",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Perplexity",
-        "Claude",
-        "Exa.ai"
-      ],
-      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Has anyone actually gotten their ChatGPT Health invite? It's been 84 years...",
-          "date": "2026-07-13",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvook8/has_anyone_actually_gotten_their_chatgpt_health/"
-        },
-        {
-          "source": "r/artificial",
-          "title": "Is the war of the technology between giant nations?",
-          "date": "2026-08-09",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
         }
       ]
     },
