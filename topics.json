@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T22:00:02.007810+00:00",
-  "source_posts_analyzed": 163,
+  "generated_at": "2026-08-11T06:05:55.564915+00:00",
+  "source_posts_analyzed": 166,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 23,
+      "signal_count": 24,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -87,33 +87,33 @@
       ]
     },
     {
-      "theme": "первый-результат-новичок",
-      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
-      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "Новички",
+      "theme": "gamma-презентации",
+      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
+      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
+      "format": "рилс",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
       "tools": [
+        "Gamma",
         "Claude",
-        "Zapier",
-        "Notion"
+        "Beautiful.ai"
       ],
-      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
       "signal_count": 4,
       "evidence": [
         {
-          "source": "r/ChatGPT",
-          "title": "Do you think ChatGPT gives good life advice?",
-          "date": "2026-06-26",
+          "source": "r/ClaudeAI",
+          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
+          "date": "2026-08-08",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ufzalc/do_you_think_chatgpt_gives_good_life_advice/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
         },
         {
-          "source": "r/ChatGPT",
-          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
-          "date": "2026-07-14",
+          "source": "r/ClaudeAI",
+          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
+          "date": "2026-08-08",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
         }
       ]
     },
@@ -149,6 +149,37 @@
       ]
     },
     {
+      "theme": "первый-результат-новичок",
+      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
+      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Новички",
+      "tools": [
+        "Claude",
+        "Zapier",
+        "Notion"
+      ],
+      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
+          "date": "2026-07-14",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Call Sam and tell him AGI is here",
+          "date": "2026-08-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/"
+        }
+      ]
+    },
+    {
       "theme": "клей-между-инструментами",
       "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
       "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
@@ -172,37 +203,6 @@
           "date": "2026-08-08",
           "relevance": 6,
           "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
-        }
-      ]
-    },
-    {
-      "theme": "gamma-презентации",
-      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
-      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
-      "format": "рилс",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Gamma",
-        "Claude",
-        "Beautiful.ai"
-      ],
-      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
-          "date": "2026-08-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
-        },
-        {
-          "source": "r/ClaudeAI",
-          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
-          "date": "2026-08-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
         }
       ]
     },
