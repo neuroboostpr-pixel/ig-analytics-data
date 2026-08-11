@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T06:05:55.564915+00:00",
-  "source_posts_analyzed": 166,
+  "generated_at": "2026-08-11T22:00:01.826965+00:00",
+  "source_posts_analyzed": 173,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 24,
+      "signal_count": 25,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -332,6 +332,55 @@
           "date": "2026-08-10",
           "relevance": 7,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vkc911/small_business_owner_using_chatgpt_where_should_i/"
+        }
+      ]
+    },
+    {
+      "theme": "notion-база-знаний",
+      "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
+      "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Эксперты / контентщики",
+      "tools": [
+        "Notion AI",
+        "Claude",
+        "Readwise"
+      ],
+      "structure": "1. Где люди хранят знания (и почему это проблема). 2. Структура базы (4 раздела). 3. Как Notion AI ищет по ней. 4. Шаблон для быстрого старта",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/artificial",
+          "title": "I rebuilt my business in NOTION and CLAUDE, it's cleaner and smoother than I expected.",
+          "date": "2026-08-10",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/artificial/comments/1vkowrt/i_rebuilt_my_business_in_notion_and_claude_its/"
+        }
+      ]
+    },
+    {
+      "theme": "контент-без-выгорания",
+      "title": "Год без выгорания в контенте: как поставить производство на автопилот за 3 шага",
+      "angle": "Эксперт/контентщик горит из-за постоянной необходимости генерировать идеи и производить. Система: Claude генерирует — HeyGen озвучивает — ElevenLabs адаптирует под форматы",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Эксперты / контентщики",
+      "tools": [
+        "Claude",
+        "HeyGen",
+        "ElevenLabs",
+        "Descript"
+      ],
+      "structure": "1. Откуда выгорание (производство, а не идеи). 2. Три звена системы. 3. Сколько времени уходит теперь vs раньше. 4. Шаблон workflow для повторения",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/smallbusiness",
+          "title": "Looking for some advice",
+          "date": "2026-08-11",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
         }
       ]
     }
