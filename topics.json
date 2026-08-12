@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T22:00:01.826965+00:00",
-  "source_posts_analyzed": 173,
+  "generated_at": "2026-08-12T06:04:33.868086+00:00",
+  "source_posts_analyzed": 178,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 25,
+      "signal_count": 28,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -99,7 +99,7 @@
         "Beautiful.ai"
       ],
       "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
-      "signal_count": 4,
+      "signal_count": 5,
       "evidence": [
         {
           "source": "r/ClaudeAI",
@@ -267,26 +267,6 @@
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
-        }
-      ]
-    },
-    {
-      "theme": "кастомные-стили",
-      "title": "Как один консультант зарабатывает $24k/мес — через кастомные стили Claude под каждую нишу",
-      "angle": "Конкретный кейс: custom instructions под healthcare, legal, e-commerce. Клиенты думают, что он специализируется на их нише. Как повторить",
-      "format": "карусель",
-      "cta": "ЗАЯВКИ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Is there a reason for ChatGPT always agreeing with me? How to change that?",
-          "date": "2026-06-27",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ugt37u/is_there_a_reason_for_chatgpt_always_agreeing/"
         }
       ]
     },
