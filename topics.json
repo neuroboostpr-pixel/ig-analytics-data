@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T06:04:33.868086+00:00",
-  "source_posts_analyzed": 178,
+  "generated_at": "2026-08-12T22:00:01.466740+00:00",
+  "source_posts_analyzed": 189,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 21,
+      "signal_count": 22,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -361,6 +361,31 @@
           "date": "2026-08-11",
           "relevance": 8,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
+        }
+      ]
+    },
+    {
+      "theme": "потеря-доступа",
+      "title": "Что будет с твоим бизнесом если завтра заблокируют Claude?",
+      "angle": "Реальный кейс: аккаунт OpenAI заблокировали без объяснений — 3 года работы, все клиентские проекты. Как строить без единой точки отказа",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude",
+        "OpenAI",
+        "Mistral",
+        "Ollama"
+      ],
+      "structure": "1. Кейс (чужой, реальный). 2. Три типа единой точки отказа. 3. Архитектура резервного доступа. 4. Что настроить за 1 час",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Where do I use claude?",
+          "date": "2026-08-12",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmg6dh/where_do_i_use_claude/"
         }
       ]
     }
