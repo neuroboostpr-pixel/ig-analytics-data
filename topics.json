@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T06:06:01.603367+00:00",
-  "source_posts_analyzed": 192,
+  "generated_at": "2026-08-13T22:00:02.062989+00:00",
+  "source_posts_analyzed": 196,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 29,
+      "signal_count": 31,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -118,6 +118,38 @@
       ]
     },
     {
+      "theme": "локальные-модели",
+      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
+      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Ollama",
+        "LM Studio",
+        "Mistral",
+        "Llama 3"
+      ],
+      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/LocalLLaMA",
+          "title": "LocalAIMaxxing - I analyzed 2.3k local AI Apps to find the best in each category",
+          "date": "2026-07-02",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqdvo/localaimaxxing_i_analyzed_23k_local_ai_apps_to/"
+        },
+        {
+          "source": "r/LocalLLaMA",
+          "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Jav",
+          "date": "2026-07-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/"
+        }
+      ]
+    },
+    {
       "theme": "perplexity-исследование",
       "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
       "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
@@ -203,38 +235,6 @@
           "date": "2026-08-08",
           "relevance": 6,
           "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
-        }
-      ]
-    },
-    {
-      "theme": "локальные-модели",
-      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
-      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Ollama",
-        "LM Studio",
-        "Mistral",
-        "Llama 3"
-      ],
-      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/LocalLLaMA",
-          "title": "LocalAIMaxxing - I analyzed 2.3k local AI Apps to find the best in each category",
-          "date": "2026-07-02",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqdvo/localaimaxxing_i_analyzed_23k_local_ai_apps_to/"
-        },
-        {
-          "source": "r/LocalLLaMA",
-          "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Jav",
-          "date": "2026-07-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/"
         }
       ]
     },
