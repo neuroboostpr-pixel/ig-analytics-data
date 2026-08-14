@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T22:00:02.062989+00:00",
-  "source_posts_analyzed": 196,
+  "generated_at": "2026-08-14T06:04:50.922455+00:00",
+  "source_posts_analyzed": 200,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 31,
+      "signal_count": 33,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -279,7 +279,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 1,
+      "signal_count": 2,
       "evidence": [
         {
           "source": "r/SideProject",
@@ -287,6 +287,13 @@
           "date": "2026-08-07",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vhokaz/i_made_20_stickfigure_memes_about_my_own_product/"
+        },
+        {
+          "source": "r/SideProject",
+          "title": "A browser tab manager + new-tab dashboard — and Claude/GPT can save research into it",
+          "date": "2026-08-14",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vnv4h1/a_browser_tab_manager_newtab_dashboard_and/"
         }
       ]
     },
