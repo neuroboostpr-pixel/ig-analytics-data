@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T22:00:01.844481+00:00",
-  "source_posts_analyzed": 210,
+  "generated_at": "2026-08-15T06:05:45.214809+00:00",
+  "source_posts_analyzed": 215,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 35,
+      "signal_count": 36,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 14,
+      "signal_count": 15,
       "evidence": [
         {
           "source": "r/ChatGPT",
