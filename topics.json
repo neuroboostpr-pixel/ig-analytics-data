@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T22:00:01.574071+00:00",
-  "source_posts_analyzed": 233,
+  "generated_at": "2026-08-17T06:05:41.380684+00:00",
+  "source_posts_analyzed": 236,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 18,
+      "signal_count": 19,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -131,7 +131,7 @@
         "Llama 3"
       ],
       "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 3,
+      "signal_count": 4,
       "evidence": [
         {
           "source": "r/LocalLLaMA",
@@ -239,6 +239,38 @@
       ]
     },
     {
+      "theme": "потеря-доступа",
+      "title": "Что будет с твоим бизнесом если завтра заблокируют Claude?",
+      "angle": "Реальный кейс: аккаунт OpenAI заблокировали без объяснений — 3 года работы, все клиентские проекты. Как строить без единой точки отказа",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude",
+        "OpenAI",
+        "Mistral",
+        "Ollama"
+      ],
+      "structure": "1. Кейс (чужой, реальный). 2. Три типа единой точки отказа. 3. Архитектура резервного доступа. 4. Что настроить за 1 час",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Where do I use claude?",
+          "date": "2026-08-12",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmg6dh/where_do_i_use_claude/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "What's a ChatGPT prompt you use daily that feels like cheating?",
+          "date": "2026-08-16",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vq0rei/whats_a_chatgpt_prompt_you_use_daily_that_feels/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -294,38 +326,6 @@
           "date": "2026-08-14",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vnv4h1/a_browser_tab_manager_newtab_dashboard_and/"
-        }
-      ]
-    },
-    {
-      "theme": "потеря-доступа",
-      "title": "Что будет с твоим бизнесом если завтра заблокируют Claude?",
-      "angle": "Реальный кейс: аккаунт OpenAI заблокировали без объяснений — 3 года работы, все клиентские проекты. Как строить без единой точки отказа",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Claude",
-        "OpenAI",
-        "Mistral",
-        "Ollama"
-      ],
-      "structure": "1. Кейс (чужой, реальный). 2. Три типа единой точки отказа. 3. Архитектура резервного доступа. 4. Что настроить за 1 час",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Where do I use claude?",
-          "date": "2026-08-12",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vmg6dh/where_do_i_use_claude/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "What's a ChatGPT prompt you use daily that feels like cheating?",
-          "date": "2026-08-16",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vq0rei/whats_a_chatgpt_prompt_you_use_daily_that_feels/"
         }
       ]
     },
