@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T22:00:02.162336+00:00",
-  "source_posts_analyzed": 243,
+  "generated_at": "2026-08-18T06:04:32.710761+00:00",
+  "source_posts_analyzed": 246,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 40,
+      "signal_count": 41,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 19,
+      "signal_count": 18,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Thinking of moving from my Claude Pro to ChatGPT Plus (currently have go), is it the right decision?",
-          "date": "2026-07-03",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1um7hii/thinking_of_moving_from_my_claude_pro_to_chatgpt/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "At what point does an AI conversation become \"knowledge\" instead of \"just a chat\"?",
           "date": "2026-07-07",
           "relevance": 7,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1upn3iu/at_what_point_does_an_ai_conversation_become/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "GPT 5.6 Sol just did an incredible thing.",
+          "date": "2026-07-11",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1utxylf/gpt_56_sol_just_did_an_incredible_thing/"
         }
       ]
     },
@@ -118,38 +118,6 @@
       ]
     },
     {
-      "theme": "локальные-модели",
-      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
-      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Ollama",
-        "LM Studio",
-        "Mistral",
-        "Llama 3"
-      ],
-      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 4,
-      "evidence": [
-        {
-          "source": "r/LocalLLaMA",
-          "title": "LocalAIMaxxing - I analyzed 2.3k local AI Apps to find the best in each category",
-          "date": "2026-07-02",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqdvo/localaimaxxing_i_analyzed_23k_local_ai_apps_to/"
-        },
-        {
-          "source": "r/LocalLLaMA",
-          "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Jav",
-          "date": "2026-07-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/"
-        }
-      ]
-    },
-    {
       "theme": "perplexity-исследование",
       "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
       "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
@@ -162,7 +130,7 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 3,
+      "signal_count": 4,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -193,7 +161,7 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 3,
+      "signal_count": 4,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -208,6 +176,38 @@
           "date": "2026-08-04",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/"
+        }
+      ]
+    },
+    {
+      "theme": "локальные-модели",
+      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
+      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Ollama",
+        "LM Studio",
+        "Mistral",
+        "Llama 3"
+      ],
+      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/LocalLLaMA",
+          "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Jav",
+          "date": "2026-07-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/"
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
+          "date": "2026-08-13",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
         }
       ]
     },
