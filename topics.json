@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T06:04:32.710761+00:00",
-  "source_posts_analyzed": 246,
+  "generated_at": "2026-08-18T22:00:01.766452+00:00",
+  "source_posts_analyzed": 257,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 41,
+      "signal_count": 42,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 18,
+      "signal_count": 19,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -343,7 +343,7 @@
         "Airtable"
       ],
       "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
-      "signal_count": 1,
+      "signal_count": 2,
       "evidence": [
         {
           "source": "r/smallbusiness",
@@ -351,6 +351,13 @@
           "date": "2026-08-10",
           "relevance": 7,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vkc911/small_business_owner_using_chatgpt_where_should_i/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug",
+          "date": "2026-08-18",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
         }
       ]
     },
@@ -400,6 +407,31 @@
           "date": "2026-08-11",
           "relevance": 8,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
+        }
+      ]
+    },
+    {
+      "theme": "ai-встречи",
+      "title": "90% совещаний не нужно проводить. Остальные я больше не конспектирую вручную",
+      "angle": "Предприниматель/менеджер тратит часы на встречи и потом ещё час на протокол. Granola/Fireflies делает транскрипт + action items автоматически. Claude превращает в задачи в CRM",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Granola",
+        "Fireflies.ai",
+        "Claude",
+        "Notion"
+      ],
+      "structure": "1. Сколько времени уходит на протоколы в среднем (данные). 2. Связка Granola → Claude → Notion/CRM. 3. Пример real action items (скрин). 4. Что настроить за 20 минут",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "rungraph - see what your coding agent actually did, as an interactive graph (open source)",
+          "date": "2026-08-18",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/"
         }
       ]
     }
