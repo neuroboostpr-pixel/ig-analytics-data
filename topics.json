@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T06:04:41.635308+00:00",
-  "source_posts_analyzed": 260,
+  "generated_at": "2026-08-19T22:00:01.632107+00:00",
+  "source_posts_analyzed": 273,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 43,
+      "signal_count": 47,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 27,
+      "signal_count": 29,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -87,6 +87,37 @@
       ]
     },
     {
+      "theme": "perplexity-исследование",
+      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
+      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
+      "format": "пост",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Perplexity",
+        "Claude",
+        "Exa.ai"
+      ],
+      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
+      "signal_count": 5,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "Has anyone actually gotten their ChatGPT Health invite? It's been 84 years...",
+          "date": "2026-07-13",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvook8/has_anyone_actually_gotten_their_chatgpt_health/"
+        },
+        {
+          "source": "r/artificial",
+          "title": "Is the war of the technology between giant nations?",
+          "date": "2026-08-09",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
+        }
+      ]
+    },
+    {
       "theme": "gamma-презентации",
       "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
       "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
@@ -114,37 +145,6 @@
           "date": "2026-08-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
-        }
-      ]
-    },
-    {
-      "theme": "perplexity-исследование",
-      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
-      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
-      "format": "пост",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Perplexity",
-        "Claude",
-        "Exa.ai"
-      ],
-      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 4,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Has anyone actually gotten their ChatGPT Health invite? It's been 84 years...",
-          "date": "2026-07-13",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uvook8/has_anyone_actually_gotten_their_chatgpt_health/"
-        },
-        {
-          "source": "r/artificial",
-          "title": "Is the war of the technology between giant nations?",
-          "date": "2026-08-09",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
         }
       ]
     },
@@ -271,6 +271,38 @@
       ]
     },
     {
+      "theme": "локальные-модели",
+      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
+      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Ollama",
+        "LM Studio",
+        "Mistral",
+        "Llama 3"
+      ],
+      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
+          "date": "2026-08-13",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
+        },
+        {
+          "source": "r/LocalLLaMA",
+          "title": "Qwen3.8 27B on a 4080Super",
+          "date": "2026-08-16",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -326,38 +358,6 @@
           "date": "2026-08-14",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vnv4h1/a_browser_tab_manager_newtab_dashboard_and/"
-        }
-      ]
-    },
-    {
-      "theme": "локальные-модели",
-      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
-      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Ollama",
-        "LM Studio",
-        "Mistral",
-        "Llama 3"
-      ],
-      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
-          "date": "2026-08-13",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
-        },
-        {
-          "source": "r/LocalLLaMA",
-          "title": "Qwen3.8 27B on a 4080Super",
-          "date": "2026-08-16",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
         }
       ]
     },
