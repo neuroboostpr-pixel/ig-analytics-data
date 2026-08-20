@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T06:06:03.243911+00:00",
-  "source_posts_analyzed": 279,
+  "generated_at": "2026-08-20T22:00:01.824228+00:00",
+  "source_posts_analyzed": 285,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 20,
+      "signal_count": 22,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -432,6 +432,26 @@
           "date": "2026-08-18",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/"
+        }
+      ]
+    },
+    {
+      "theme": "solo-с-ии",
+      "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
+      "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "Founders with paying customers, what does your marketing stack actually cost you per month?",
+          "date": "2026-08-20",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vtkmhq/founders_with_paying_customers_what_does_your/"
         }
       ]
     }
