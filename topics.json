@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T22:00:02.097050+00:00",
-  "source_posts_analyzed": 296,
+  "generated_at": "2026-08-22T06:05:59.627258+00:00",
+  "source_posts_analyzed": 294,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,21 +11,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 50,
+      "signal_count": 49,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "I built a free tool that rewrites your bad ChatGPT prompts into good ones (before/after inside)",
-          "date": "2026-07-07",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uphmnd/i_built_a_free_tool_that_rewrites_your_bad/"
-        },
         {
           "source": "r/artificial",
           "title": "Anyone else using AI writing tools for both clinical and marketing copy? The context switching is ki",
           "date": "2026-08-05",
           "relevance": 5,
           "url": "https://www.reddit.com/r/artificial/comments/1vg75af/anyone_else_using_ai_writing_tools_for_both/"
+        },
+        {
+          "source": "r/smallbusiness",
+          "title": "One client is 100% of my revenue, paying me a flat fee without too much room to grow. How do I diver",
+          "date": "2026-08-05",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vg8il1/one_client_is_100_of_my_revenue_paying_me_a_flat/"
         }
       ]
     },
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 22,
+      "signal_count": 21,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "At what point does an AI conversation become \"knowledge\" instead of \"just a chat\"?",
-          "date": "2026-07-07",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1upn3iu/at_what_point_does_an_ai_conversation_become/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "GPT 5.6 Sol just did an incredible thing.",
           "date": "2026-07-11",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1utxylf/gpt_56_sol_just_did_an_incredible_thing/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "The most dangerous ChatGPT answers aren’t wrong. They’re the ones that make your bad idea sound reas",
+          "date": "2026-07-15",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux4b5l/the_most_dangerous_chatgpt_answers_arent_wrong/"
         }
       ]
     },
