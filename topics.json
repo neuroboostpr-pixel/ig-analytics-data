@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T06:07:33.086624+00:00",
-  "source_posts_analyzed": 302,
+  "generated_at": "2026-08-23T22:00:01.647701+00:00",
+  "source_posts_analyzed": 314,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 49,
+      "signal_count": 50,
       "evidence": [
         {
           "source": "r/artificial",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 32,
+      "signal_count": 33,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 23,
+      "signal_count": 24,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -118,6 +118,37 @@
       ]
     },
     {
+      "theme": "первый-результат-новичок",
+      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
+      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Новички",
+      "tools": [
+        "Claude",
+        "Zapier",
+        "Notion"
+      ],
+      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "signal_count": 5,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
+          "date": "2026-07-14",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Call Sam and tell him AGI is here",
+          "date": "2026-08-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/"
+        }
+      ]
+    },
+    {
       "theme": "gamma-презентации",
       "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
       "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
@@ -149,33 +180,34 @@
       ]
     },
     {
-      "theme": "первый-результат-новичок",
-      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
-      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "Новички",
+      "theme": "локальные-модели",
+      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
+      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Специалисты / фрилансеры",
       "tools": [
-        "Claude",
-        "Zapier",
-        "Notion"
+        "Ollama",
+        "LM Studio",
+        "Mistral",
+        "Llama 3"
       ],
-      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
       "signal_count": 4,
       "evidence": [
         {
-          "source": "r/ChatGPT",
-          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
-          "date": "2026-07-14",
+          "source": "r/ClaudeAI",
+          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
+          "date": "2026-08-13",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
         },
         {
-          "source": "r/ChatGPT",
-          "title": "Call Sam and tell him AGI is here",
-          "date": "2026-08-04",
+          "source": "r/LocalLLaMA",
+          "title": "Qwen3.8 27B on a 4080Super",
+          "date": "2026-08-16",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
         }
       ]
     },
@@ -267,38 +299,6 @@
           "date": "2026-08-16",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vq0rei/whats_a_chatgpt_prompt_you_use_daily_that_feels/"
-        }
-      ]
-    },
-    {
-      "theme": "локальные-модели",
-      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
-      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Ollama",
-        "LM Studio",
-        "Mistral",
-        "Llama 3"
-      ],
-      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
-          "date": "2026-08-13",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
-        },
-        {
-          "source": "r/LocalLLaMA",
-          "title": "Qwen3.8 27B on a 4080Super",
-          "date": "2026-08-16",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
         }
       ]
     },
