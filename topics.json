@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T22:00:01.647701+00:00",
-  "source_posts_analyzed": 314,
+  "generated_at": "2026-08-24T06:05:31.318016+00:00",
+  "source_posts_analyzed": 321,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 24,
+      "signal_count": 25,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -83,6 +83,37 @@
           "date": "2026-07-15",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1ux4b5l/the_most_dangerous_chatgpt_answers_arent_wrong/"
+        }
+      ]
+    },
+    {
+      "theme": "первый-результат-новичок",
+      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
+      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "Новички",
+      "tools": [
+        "Claude",
+        "Zapier",
+        "Notion"
+      ],
+      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
+      "signal_count": 6,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
+          "date": "2026-07-14",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Call Sam and tell him AGI is here",
+          "date": "2026-08-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/"
         }
       ]
     },
@@ -114,37 +145,6 @@
           "date": "2026-08-09",
           "relevance": 5,
           "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
-        }
-      ]
-    },
-    {
-      "theme": "первый-результат-новичок",
-      "title": "Первый ИИ-инструмент без кода: что я сделал за 40 минут и как это сразу стало работать",
-      "angle": "Новичок боится что ИИ — это сложно и нужно знать программирование. Конкретный кейс: первая автоматизация с нуля. Не теория — что нажал, что написал, что получил",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "Новички",
-      "tools": [
-        "Claude",
-        "Zapier",
-        "Notion"
-      ],
-      "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 5,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Learn a new language with ChatGPT (step-by-step tutorial)",
-          "date": "2026-07-14",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uwes8f/learn_a_new_language_with_chatgpt_stepbystep/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "Call Sam and tell him AGI is here",
-          "date": "2026-08-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vf9djg/call_sam_and_tell_him_agi_is_here/"
         }
       ]
     },
@@ -193,7 +193,7 @@
         "Llama 3"
       ],
       "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 4,
+      "signal_count": 5,
       "evidence": [
         {
           "source": "r/ClaudeAI",
