@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T06:04:47.429915+00:00",
-  "source_posts_analyzed": 345,
+  "generated_at": "2026-08-26T22:00:01.488453+00:00",
+  "source_posts_analyzed": 357,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 38,
+      "signal_count": 39,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -130,7 +130,7 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 5,
+      "signal_count": 6,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -303,6 +303,38 @@
       ]
     },
     {
+      "theme": "агент-ночью",
+      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
+      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Claude API",
+        "Telegram Bot",
+        "Google Sheets"
+      ],
+      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
+          "date": "2026-07-11",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
+        },
+        {
+          "source": "r/SideProject",
+          "title": "UPDATE: I productized my internal blog automation and hit 1.5k usd in revenue",
+          "date": "2026-08-26",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vyyiu8/update_i_productized_my_internal_blog_automation/"
+        }
+      ]
+    },
+    {
       "theme": "5-советников",
       "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
       "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
@@ -326,31 +358,6 @@
           "date": "2026-08-14",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vnv4h1/a_browser_tab_manager_newtab_dashboard_and/"
-        }
-      ]
-    },
-    {
-      "theme": "агент-ночью",
-      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
-      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "n8n",
-        "Claude API",
-        "Telegram Bot",
-        "Google Sheets"
-      ],
-      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
-          "date": "2026-07-11",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
         }
       ]
     },
