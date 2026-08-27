@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T22:00:01.488453+00:00",
-  "source_posts_analyzed": 357,
+  "generated_at": "2026-08-27T06:05:57.927838+00:00",
+  "source_posts_analyzed": 361,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -45,17 +45,17 @@
       "evidence": [
         {
           "source": "r/ChatGPT",
-          "title": "Copy-and-paste prompt for understanding the current ChatGPT ecosystem",
-          "date": "2026-07-12",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1uuhdo1/copyandpaste_prompt_for_understanding_the_current/"
-        },
-        {
-          "source": "r/ChatGPT",
           "title": "I asked Gemini and ChatGPT to create an image of Mad Eye Moody based solely on the book descriptions",
           "date": "2026-07-19",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v0g5c2/i_asked_gemini_and_chatgpt_to_create_an_image_of/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I made $300k within 3 weeks, found 3 jobs, married 2 husbands and 3 wives using ChatGPT. You will no",
+          "date": "2026-07-20",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1izcn/i_made_300k_within_3_weeks_found_3_jobs_married_2/"
         }
       ]
     },
@@ -68,14 +68,14 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 25,
+      "signal_count": 24,
       "evidence": [
         {
           "source": "r/ChatGPT",
-          "title": "GPT 5.6 Sol just did an incredible thing.",
-          "date": "2026-07-11",
+          "title": "The most dangerous ChatGPT answers aren’t wrong. They’re the ones that make your bad idea sound reas",
+          "date": "2026-07-15",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1utxylf/gpt_56_sol_just_did_an_incredible_thing/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux4b5l/the_most_dangerous_chatgpt_answers_arent_wrong/"
         },
         {
           "source": "r/ChatGPT",
@@ -303,34 +303,34 @@
       ]
     },
     {
-      "theme": "агент-ночью",
-      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
-      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
+      "theme": "ai-встречи",
+      "title": "90% совещаний не нужно проводить. Остальные я больше не конспектирую вручную",
+      "angle": "Предприниматель/менеджер тратит часы на встречи и потом ещё час на протокол. Granola/Fireflies делает транскрипт + action items автоматически. Claude превращает в задачи в CRM",
       "format": "пост",
       "cta": "КЛИЕНТЫ",
       "segment": "Предприниматели",
       "tools": [
-        "n8n",
-        "Claude API",
-        "Telegram Bot",
-        "Google Sheets"
+        "Granola",
+        "Fireflies.ai",
+        "Claude",
+        "Notion"
       ],
-      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
-      "signal_count": 2,
+      "structure": "1. Сколько времени уходит на протоколы в среднем (данные). 2. Связка Granola → Claude → Notion/CRM. 3. Пример real action items (скрин). 4. Что настроить за 20 минут",
+      "signal_count": 3,
       "evidence": [
         {
-          "source": "r/ChatGPT",
-          "title": "I had ChatGPT Re-write Bill Joel's \"We Didn't Start the Fire\" using events from 2006-2026.",
-          "date": "2026-07-11",
+          "source": "r/SideProject",
+          "title": "rungraph - see what your coding agent actually did, as an interactive graph (open source)",
+          "date": "2026-08-18",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1utp2oi/i_had_chatgpt_rewrite_bill_joels_we_didnt_start/"
+          "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/"
         },
         {
-          "source": "r/SideProject",
-          "title": "UPDATE: I productized my internal blog automation and hit 1.5k usd in revenue",
-          "date": "2026-08-26",
-          "relevance": 8,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vyyiu8/update_i_productized_my_internal_blog_automation/"
+          "source": "r/ClaudeAI",
+          "title": "Claude described our product better than our marketing team",
+          "date": "2026-08-27",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzev65/claude_described_our_product_better_than_our/"
         }
       ]
     },
@@ -411,31 +411,6 @@
       ]
     },
     {
-      "theme": "ai-встречи",
-      "title": "90% совещаний не нужно проводить. Остальные я больше не конспектирую вручную",
-      "angle": "Предприниматель/менеджер тратит часы на встречи и потом ещё час на протокол. Granola/Fireflies делает транскрипт + action items автоматически. Claude превращает в задачи в CRM",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Granola",
-        "Fireflies.ai",
-        "Claude",
-        "Notion"
-      ],
-      "structure": "1. Сколько времени уходит на протоколы в среднем (данные). 2. Связка Granola → Claude → Notion/CRM. 3. Пример real action items (скрин). 4. Что настроить за 20 минут",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "rungraph - see what your coding agent actually did, as an interactive graph (open source)",
-          "date": "2026-08-18",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/"
-        }
-      ]
-    },
-    {
       "theme": "solo-с-ии",
       "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
       "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
@@ -452,6 +427,31 @@
           "date": "2026-08-20",
           "relevance": 7,
           "url": "https://www.reddit.com/r/SideProject/comments/1vtkmhq/founders_with_paying_customers_what_does_your/"
+        }
+      ]
+    },
+    {
+      "theme": "агент-ночью",
+      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
+      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Claude API",
+        "Telegram Bot",
+        "Google Sheets"
+      ],
+      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "UPDATE: I productized my internal blog automation and hit 1.5k usd in revenue",
+          "date": "2026-08-26",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vyyiu8/update_i_productized_my_internal_blog_automation/"
         }
       ]
     }
