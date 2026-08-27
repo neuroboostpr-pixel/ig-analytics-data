@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T06:05:57.927838+00:00",
-  "source_posts_analyzed": 361,
+  "generated_at": "2026-08-27T22:00:01.580823+00:00",
+  "source_posts_analyzed": 364,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 24,
+      "signal_count": 25,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -99,7 +99,7 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 9,
+      "signal_count": 10,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -130,7 +130,7 @@
         "Exa.ai"
       ],
       "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 6,
+      "signal_count": 7,
       "evidence": [
         {
           "source": "r/ChatGPT",
