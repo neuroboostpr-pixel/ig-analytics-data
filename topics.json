@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T22:00:01.677972+00:00",
-  "source_posts_analyzed": 386,
+  "generated_at": "2026-08-30T06:06:27.353319+00:00",
+  "source_posts_analyzed": 390,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -78,11 +78,11 @@
           "url": "https://www.reddit.com/r/ChatGPT/comments/1ux4b5l/the_most_dangerous_chatgpt_answers_arent_wrong/"
         },
         {
-          "source": "r/ChatGPT",
-          "title": "The most dangerous ChatGPT answers aren’t wrong. They’re the ones that make your bad idea sound reas",
-          "date": "2026-07-15",
+          "source": "r/LocalLLaMA",
+          "title": "I used local models and embedders to find out how coding agents are making decisions for me and how ",
+          "date": "2026-07-26",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux4b5l/the_most_dangerous_chatgpt_answers_arent_wrong/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72fmm/i_used_local_models_and_embedders_to_find_out_how/"
         }
       ]
     },
@@ -99,7 +99,7 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 11,
+      "signal_count": 12,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -114,6 +114,37 @@
           "date": "2026-08-06",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vh359p/new_to_claude_and_ai_tools_looking_for_setup/"
+        }
+      ]
+    },
+    {
+      "theme": "gamma-презентации",
+      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
+      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
+      "format": "рилс",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Gamma",
+        "Claude",
+        "Beautiful.ai"
+      ],
+      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
+      "signal_count": 6,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
+          "date": "2026-08-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
+          "date": "2026-08-08",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
         }
       ]
     },
@@ -181,33 +212,34 @@
       ]
     },
     {
-      "theme": "gamma-презентации",
-      "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
-      "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
-      "format": "рилс",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
+      "theme": "n8n-автоматизация",
+      "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
+      "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
       "tools": [
-        "Gamma",
-        "Claude",
-        "Beautiful.ai"
+        "n8n",
+        "Claude API",
+        "Telegram",
+        "Airtable"
       ],
-      "structure": "Хук: «4 часа в PowerPoint или 3 минуты?». Показать процесс (скринкаст). До/после. CTA: попробуй на своём следующем проекте",
-      "signal_count": 5,
+      "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
+      "signal_count": 4,
       "evidence": [
         {
-          "source": "r/ClaudeAI",
-          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
-          "date": "2026-08-08",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
+          "source": "r/smallbusiness",
+          "title": "Small business owner using ChatGPT where should I start with AI agents?",
+          "date": "2026-08-10",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vkc911/small_business_owner_using_chatgpt_where_should_i/"
         },
         {
-          "source": "r/ClaudeAI",
-          "title": "Adding laconic instructions to Opus 5's system prompt reduced its verbosity by 62% without losing im",
-          "date": "2026-08-08",
+          "source": "r/ChatGPT",
+          "title": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug",
+          "date": "2026-08-18",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
         }
       ]
     },
@@ -235,38 +267,6 @@
           "date": "2026-08-08",
           "relevance": 6,
           "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
-        }
-      ]
-    },
-    {
-      "theme": "n8n-автоматизация",
-      "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
-      "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
-      "format": "карусель",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "n8n",
-        "Claude API",
-        "Telegram",
-        "Airtable"
-      ],
-      "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/smallbusiness",
-          "title": "Small business owner using ChatGPT where should I start with AI agents?",
-          "date": "2026-08-10",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1vkc911/small_business_owner_using_chatgpt_where_should_i/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug",
-          "date": "2026-08-18",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
         }
       ]
     },
