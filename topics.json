@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T22:00:01.852717+00:00",
-  "source_posts_analyzed": 397,
+  "generated_at": "2026-08-31T06:06:15.784026+00:00",
+  "source_posts_analyzed": 398,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 55,
+      "signal_count": 56,
       "evidence": [
         {
           "source": "r/artificial",
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 28,
+      "signal_count": 27,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "The most dangerous ChatGPT answers aren’t wrong. They’re the ones that make your bad idea sound reas",
-          "date": "2026-07-15",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1ux4b5l/the_most_dangerous_chatgpt_answers_arent_wrong/"
-        },
         {
           "source": "r/LocalLLaMA",
           "title": "I used local models and embedders to find out how coding agents are making decisions for me and how ",
           "date": "2026-07-26",
           "relevance": 5,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72fmm/i_used_local_models_and_embedders_to_find_out_how/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "Best AI subscription for general everyday use: ChatGPT, Claude, or something else?",
+          "date": "2026-08-02",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vdc8dm/best_ai_subscription_for_general_everyday_use/"
         }
       ]
     },
@@ -212,6 +212,33 @@
       ]
     },
     {
+      "theme": "клей-между-инструментами",
+      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
+      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 4,
+      "evidence": [
+        {
+          "source": "r/LocalLLaMA",
+          "title": "What's your biggest pain point with AI tooling right now?",
+          "date": "2026-07-26",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7h67o/whats_your_biggest_pain_point_with_ai_tooling/"
+        },
+        {
+          "source": "r/SideProject",
+          "title": "Built a memory layer so I stop re-explaining my project to every AI tool",
+          "date": "2026-08-08",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
+        }
+      ]
+    },
+    {
       "theme": "n8n-автоматизация",
       "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
       "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
@@ -240,33 +267,6 @@
           "date": "2026-08-18",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
-        }
-      ]
-    },
-    {
-      "theme": "клей-между-инструментами",
-      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
-      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/LocalLLaMA",
-          "title": "What's your biggest pain point with AI tooling right now?",
-          "date": "2026-07-26",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7h67o/whats_your_biggest_pain_point_with_ai_tooling/"
-        },
-        {
-          "source": "r/SideProject",
-          "title": "Built a memory layer so I stop re-explaining my project to every AI tool",
-          "date": "2026-08-08",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
         }
       ]
     },
