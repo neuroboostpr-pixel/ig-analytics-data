@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T06:05:35.004395+00:00",
-  "source_posts_analyzed": 418,
+  "generated_at": "2026-09-01T22:00:02.130910+00:00",
+  "source_posts_analyzed": 433,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 59,
+      "signal_count": 60,
       "evidence": [
         {
           "source": "r/artificial",
@@ -180,6 +180,38 @@
       ]
     },
     {
+      "theme": "n8n-автоматизация",
+      "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
+      "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Claude API",
+        "Telegram",
+        "Airtable"
+      ],
+      "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
+      "signal_count": 6,
+      "evidence": [
+        {
+          "source": "r/smallbusiness",
+          "title": "Small business owner using ChatGPT where should I start with AI agents?",
+          "date": "2026-08-10",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vkc911/small_business_owner_using_chatgpt_where_should_i/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug",
+          "date": "2026-08-18",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
+        }
+      ]
+    },
+    {
       "theme": "локальные-модели",
       "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
       "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
@@ -208,38 +240,6 @@
           "date": "2026-08-16",
           "relevance": 5,
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
-        }
-      ]
-    },
-    {
-      "theme": "n8n-автоматизация",
-      "title": "Собрал корпоративного ассистента на n8n за выходные: 0 подписок SaaS, 0 строк кода",
-      "angle": "Предприниматель хочет автоматизировать рутину без дорогих подписок. n8n self-hosted даёт Zapier-логику бесплатно. Конкретный workflow: входящий лид → квалификация → КП → CRM",
-      "format": "карусель",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "n8n",
-        "Claude API",
-        "Telegram",
-        "Airtable"
-      ],
-      "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
-      "signal_count": 5,
-      "evidence": [
-        {
-          "source": "r/smallbusiness",
-          "title": "Small business owner using ChatGPT where should I start with AI agents?",
-          "date": "2026-08-10",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/smallbusiness/comments/1vkc911/small_business_owner_using_chatgpt_where_should_i/"
-        },
-        {
-          "source": "r/ChatGPT",
-          "title": "I made working n8n nodes off-limits to ChatGPT, and it changed how I debug",
-          "date": "2026-08-18",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1vrpyw1/i_made_working_n8n_nodes_offlimits_to_chatgpt_and/"
         }
       ]
     },
