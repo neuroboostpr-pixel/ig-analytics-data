@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T22:00:02.147717+00:00",
-  "source_posts_analyzed": 407,
+  "generated_at": "2026-09-01T06:05:35.004395+00:00",
+  "source_posts_analyzed": 418,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 58,
+      "signal_count": 59,
       "evidence": [
         {
           "source": "r/artificial",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 45,
+      "signal_count": 46,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -99,7 +99,7 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 13,
+      "signal_count": 14,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -114,6 +114,37 @@
           "date": "2026-08-06",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vh359p/new_to_claude_and_ai_tools_looking_for_setup/"
+        }
+      ]
+    },
+    {
+      "theme": "perplexity-исследование",
+      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
+      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
+      "format": "пост",
+      "cta": "ЗАЯВКИ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Perplexity",
+        "Claude",
+        "Exa.ai"
+      ],
+      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
+      "signal_count": 7,
+      "evidence": [
+        {
+          "source": "r/artificial",
+          "title": "Is the war of the technology between giant nations?",
+          "date": "2026-08-09",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
+        },
+        {
+          "source": "r/artificial",
+          "title": "Is the war of the technology between giant nations?",
+          "date": "2026-08-09",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
         }
       ]
     },
@@ -145,37 +176,6 @@
           "date": "2026-08-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
-        }
-      ]
-    },
-    {
-      "theme": "perplexity-исследование",
-      "title": "Перестал тратить 2 часа на исследование ниши: Perplexity + Claude за 15 минут",
-      "angle": "Специалист/контентщик делает ресёрч перед встречей или материалом. Perplexity — быстрый поиск с источниками, Claude — структурирование и анализ. Связка на конкретном примере",
-      "format": "пост",
-      "cta": "ЗАЯВКИ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Perplexity",
-        "Claude",
-        "Exa.ai"
-      ],
-      "structure": "1. Что раньше занимало 2 часа. 2. Prompting-связка Perplexity → Claude (конкретные запросы). 3. Что получилось (скрин). 4. Где это экономит деньги клиенту",
-      "signal_count": 6,
-      "evidence": [
-        {
-          "source": "r/artificial",
-          "title": "Is the war of the technology between giant nations?",
-          "date": "2026-08-09",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
-        },
-        {
-          "source": "r/artificial",
-          "title": "Is the war of the technology between giant nations?",
-          "date": "2026-08-09",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/"
         }
       ]
     },
@@ -362,6 +362,38 @@
       ]
     },
     {
+      "theme": "агент-ночью",
+      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
+      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "n8n",
+        "Claude API",
+        "Telegram Bot",
+        "Google Sheets"
+      ],
+      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "UPDATE: I productized my internal blog automation and hit 1.5k usd in revenue",
+          "date": "2026-08-26",
+          "relevance": 8,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vyyiu8/update_i_productized_my_internal_blog_automation/"
+        },
+        {
+          "source": "r/SideProject",
+          "title": "Outbid.lol made 100k in 48 hours. I built the creator version for 5 bucks",
+          "date": "2026-09-01",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1w3yl8j/outbidlol_made_100k_in_48_hours_i_built_the/"
+        }
+      ]
+    },
+    {
       "theme": "notion-база-знаний",
       "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
       "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
@@ -427,31 +459,6 @@
           "date": "2026-08-20",
           "relevance": 7,
           "url": "https://www.reddit.com/r/SideProject/comments/1vtkmhq/founders_with_paying_customers_what_does_your/"
-        }
-      ]
-    },
-    {
-      "theme": "агент-ночью",
-      "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
-      "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "n8n",
-        "Claude API",
-        "Telegram Bot",
-        "Google Sheets"
-      ],
-      "structure": "1. Что я получаю к 9 утра (скрин дайджеста). 2. Источники: продажи + конкуренты + соцсети. 3. Схема агента. 4. Сколько часов в неделю это экономит",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "UPDATE: I productized my internal blog automation and hit 1.5k usd in revenue",
-          "date": "2026-08-26",
-          "relevance": 8,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vyyiu8/update_i_productized_my_internal_blog_automation/"
         }
       ]
     }
