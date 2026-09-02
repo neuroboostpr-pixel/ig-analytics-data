@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T22:00:02.130910+00:00",
-  "source_posts_analyzed": 433,
+  "generated_at": "2026-09-02T06:04:55.842203+00:00",
+  "source_posts_analyzed": 441,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 60,
+      "signal_count": 61,
       "evidence": [
         {
           "source": "r/artificial",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 27,
+      "signal_count": 28,
       "evidence": [
         {
           "source": "r/LocalLLaMA",
