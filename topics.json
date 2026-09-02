@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T06:04:55.842203+00:00",
-  "source_posts_analyzed": 441,
+  "generated_at": "2026-09-02T22:00:02.136447+00:00",
+  "source_posts_analyzed": 452,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 61,
+      "signal_count": 62,
       "evidence": [
         {
           "source": "r/artificial",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 46,
+      "signal_count": 49,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -362,6 +362,33 @@
       ]
     },
     {
+      "theme": "solo-с-ии",
+      "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
+      "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
+      "format": "карусель",
+      "cta": "ЛИДЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "Founders with paying customers, what does your marketing stack actually cost you per month?",
+          "date": "2026-08-20",
+          "relevance": 7,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vtkmhq/founders_with_paying_customers_what_does_your/"
+        },
+        {
+          "source": "r/smallbusiness",
+          "title": "How do small businesses without a marketing person actually handle marketing?",
+          "date": "2026-09-02",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w5hlb9/how_do_small_businesses_without_a_marketing/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -439,26 +466,6 @@
           "date": "2026-08-11",
           "relevance": 8,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
-        }
-      ]
-    },
-    {
-      "theme": "solo-с-ии",
-      "title": "Соло-основатель в 2026: как один человек управляет 3 продуктами через ИИ-систему",
-      "angle": "Конкретная архитектура: что отдал агентам, что оставил себе, как выстроил контроль качества без команды",
-      "format": "карусель",
-      "cta": "ЛИДЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "Founders with paying customers, what does your marketing stack actually cost you per month?",
-          "date": "2026-08-20",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vtkmhq/founders_with_paying_customers_what_does_your/"
         }
       ]
     }
