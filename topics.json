@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:00:01.808021+00:00",
+  "generated_at": "2026-09-04T06:06:49.383548+00:00",
   "source_posts_analyzed": 461,
   "ideas": [
     {
@@ -41,21 +41,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 49,
+      "signal_count": 48,
       "evidence": [
         {
           "source": "r/ChatGPT",
-          "title": "I made $300k within 3 weeks, found 3 jobs, married 2 husbands and 3 wives using ChatGPT. You will no",
-          "date": "2026-07-20",
-          "relevance": 7,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v1izcn/i_made_300k_within_3_weeks_found_3_jobs_married_2/"
+          "title": "Are businesses starting to optimize for AI instead of just Google?",
+          "date": "2026-07-21",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v2k6se/are_businesses_starting_to_optimize_for_ai/"
         },
         {
-          "source": "r/LocalLLaMA",
-          "title": "Testing new models with an animated SVG challenge: flamingo moonwalking on a Sardinian beach",
-          "date": "2026-07-20",
+          "source": "r/ChatGPT",
+          "title": "Anyone switch from ChatGPT Plus to ChatGPT Go?",
+          "date": "2026-07-28",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1np1f/testing_new_models_with_an_animated_svg_challenge/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v90luo/anyone_switch_from_chatgpt_plus_to_chatgpt_go/"
         }
       ]
     },
