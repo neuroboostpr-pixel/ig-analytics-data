@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T06:06:49.383548+00:00",
-  "source_posts_analyzed": 461,
+  "generated_at": "2026-09-04T22:00:01.628062+00:00",
+  "source_posts_analyzed": 467,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 64,
+      "signal_count": 65,
       "evidence": [
         {
           "source": "r/artificial",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 48,
+      "signal_count": 49,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -271,6 +271,38 @@
       ]
     },
     {
+      "theme": "ai-встречи",
+      "title": "90% совещаний не нужно проводить. Остальные я больше не конспектирую вручную",
+      "angle": "Предприниматель/менеджер тратит часы на встречи и потом ещё час на протокол. Granola/Fireflies делает транскрипт + action items автоматически. Claude превращает в задачи в CRM",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Granola",
+        "Fireflies.ai",
+        "Claude",
+        "Notion"
+      ],
+      "structure": "1. Сколько времени уходит на протоколы в среднем (данные). 2. Связка Granola → Claude → Notion/CRM. 3. Пример real action items (скрин). 4. Что настроить за 20 минут",
+      "signal_count": 4,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "rungraph - see what your coding agent actually did, as an interactive graph (open source)",
+          "date": "2026-08-18",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/"
+        },
+        {
+          "source": "r/ClaudeAI",
+          "title": "Claude described our product better than our marketing team",
+          "date": "2026-08-27",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzev65/claude_described_our_product_better_than_our/"
+        }
+      ]
+    },
+    {
       "theme": "5-советников",
       "title": "Почему я больше не задаю вопрос одной нейронке — у меня 5 советников",
       "angle": "Когда ИИ всегда соглашается — это проблема. Покажи как настроить панель мнений: один пессимист, один юрист, один CFO, один критик, один стратег",
@@ -326,38 +358,6 @@
           "date": "2026-08-16",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vq0rei/whats_a_chatgpt_prompt_you_use_daily_that_feels/"
-        }
-      ]
-    },
-    {
-      "theme": "ai-встречи",
-      "title": "90% совещаний не нужно проводить. Остальные я больше не конспектирую вручную",
-      "angle": "Предприниматель/менеджер тратит часы на встречи и потом ещё час на протокол. Granola/Fireflies делает транскрипт + action items автоматически. Claude превращает в задачи в CRM",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Granola",
-        "Fireflies.ai",
-        "Claude",
-        "Notion"
-      ],
-      "structure": "1. Сколько времени уходит на протоколы в среднем (данные). 2. Связка Granola → Claude → Notion/CRM. 3. Пример real action items (скрин). 4. Что настроить за 20 минут",
-      "signal_count": 3,
-      "evidence": [
-        {
-          "source": "r/SideProject",
-          "title": "rungraph - see what your coding agent actually did, as an interactive graph (open source)",
-          "date": "2026-08-18",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vry639/rungraph_see_what_your_coding_agent_actually_did/"
-        },
-        {
-          "source": "r/ClaudeAI",
-          "title": "Claude described our product better than our marketing team",
-          "date": "2026-08-27",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vzev65/claude_described_our_product_better_than_our/"
         }
       ]
     },
