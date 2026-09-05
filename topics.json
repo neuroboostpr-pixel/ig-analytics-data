@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T22:00:01.628062+00:00",
-  "source_posts_analyzed": 467,
+  "generated_at": "2026-09-05T06:06:48.614146+00:00",
+  "source_posts_analyzed": 469,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -45,10 +45,10 @@
       "evidence": [
         {
           "source": "r/ChatGPT",
-          "title": "Are businesses starting to optimize for AI instead of just Google?",
-          "date": "2026-07-21",
+          "title": "Anyone switch from ChatGPT Plus to ChatGPT Go?",
+          "date": "2026-07-28",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v2k6se/are_businesses_starting_to_optimize_for_ai/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1v90luo/anyone_switch_from_chatgpt_plus_to_chatgpt_go/"
         },
         {
           "source": "r/ChatGPT",
@@ -466,6 +466,31 @@
           "date": "2026-08-11",
           "relevance": 8,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
+        }
+      ]
+    },
+    {
+      "theme": "ai-hr-наём",
+      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
+      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude",
+        "n8n",
+        "Airtable",
+        "Notion"
+      ],
+      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
+      "signal_count": 1,
+      "evidence": [
+        {
+          "source": "r/Entrepreneur",
+          "title": "A good employee will make or break your business.",
+          "date": "2026-09-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
         }
       ]
     }
