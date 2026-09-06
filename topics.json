@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T22:00:02.244230+00:00",
-  "source_posts_analyzed": 475,
+  "generated_at": "2026-09-06T06:06:58.199702+00:00",
+  "source_posts_analyzed": 477,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 50,
+      "signal_count": 53,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -421,6 +421,38 @@
       ]
     },
     {
+      "theme": "ai-hr-наём",
+      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
+      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude",
+        "n8n",
+        "Airtable",
+        "Notion"
+      ],
+      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/Entrepreneur",
+          "title": "A good employee will make or break your business.",
+          "date": "2026-09-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
+        },
+        {
+          "source": "r/Entrepreneur",
+          "title": "A good employee will make or break your business.",
+          "date": "2026-09-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
+        }
+      ]
+    },
+    {
       "theme": "notion-база-знаний",
       "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
       "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
@@ -466,31 +498,6 @@
           "date": "2026-08-11",
           "relevance": 8,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
-        }
-      ]
-    },
-    {
-      "theme": "ai-hr-наём",
-      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
-      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Claude",
-        "n8n",
-        "Airtable",
-        "Notion"
-      ],
-      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/Entrepreneur",
-          "title": "A good employee will make or break your business.",
-          "date": "2026-09-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
         }
       ]
     }
