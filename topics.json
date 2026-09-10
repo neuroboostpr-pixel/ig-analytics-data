@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T22:00:01.650665+00:00",
-  "source_posts_analyzed": 522,
+  "generated_at": "2026-09-10T06:06:46.340904+00:00",
+  "source_posts_analyzed": 525,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 76,
+      "signal_count": 77,
       "evidence": [
         {
           "source": "r/artificial",
@@ -68,21 +68,21 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 31,
+      "signal_count": 30,
       "evidence": [
-        {
-          "source": "r/LocalLLaMA",
-          "title": "I used local models and embedders to find out how coding agents are making decisions for me and how ",
-          "date": "2026-07-26",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72fmm/i_used_local_models_and_embedders_to_find_out_how/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "Best AI subscription for general everyday use: ChatGPT, Claude, or something else?",
           "date": "2026-08-02",
           "relevance": 7,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vdc8dm/best_ai_subscription_for_general_everyday_use/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "What else can I use AI for?",
+          "date": "2026-08-04",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vfjddn/what_else_can_i_use_ai_for/"
         }
       ]
     },
@@ -453,6 +453,38 @@
       ]
     },
     {
+      "theme": "ai-клиентский-сервис",
+      "title": "Бот отвечает клиентам в 3 ночи и не злится: как это устроено без программиста",
+      "angle": "Предприниматель теряет лиды когда не отвечает быстро. ИИ-бот в Telegram/WhatsApp = первая линия поддержки 24/7. Без кода, через Claude + n8n + база знаний",
+      "format": "карусель",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude API",
+        "n8n",
+        "Telegram Bot API",
+        "Notion (база знаний)"
+      ],
+      "structure": "1. Сколько лидов теряется из-за медленного ответа (данные). 2. Архитектура: запрос → поиск в базе → ответ. 3. Что бот умеет, что нет. 4. Как запустить MVP за выходные",
+      "signal_count": 2,
+      "evidence": [
+        {
+          "source": "r/ChatGPT",
+          "title": "I accidentally built myself an executive staff in ChatGPT",
+          "date": "2026-09-09",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "I accidentally built myself an executive staff in ChatGPT",
+          "date": "2026-09-09",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/"
+        }
+      ]
+    },
+    {
       "theme": "notion-база-знаний",
       "title": "Notion AI как второй мозг: почему порядок в знаниях важнее нового ИИ-инструмента",
       "angle": "Эксперт/специалист собирает материалы в 10 местах — теряет время на поиск. Notion AI с хорошей структурой = мгновенный поиск по всем знаниям. Реальная настройка за 1 день",
@@ -498,31 +530,6 @@
           "date": "2026-08-11",
           "relevance": 8,
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vlc9k0/looking_for_some_advice/"
-        }
-      ]
-    },
-    {
-      "theme": "ai-клиентский-сервис",
-      "title": "Бот отвечает клиентам в 3 ночи и не злится: как это устроено без программиста",
-      "angle": "Предприниматель теряет лиды когда не отвечает быстро. ИИ-бот в Telegram/WhatsApp = первая линия поддержки 24/7. Без кода, через Claude + n8n + база знаний",
-      "format": "карусель",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Claude API",
-        "n8n",
-        "Telegram Bot API",
-        "Notion (база знаний)"
-      ],
-      "structure": "1. Сколько лидов теряется из-за медленного ответа (данные). 2. Архитектура: запрос → поиск в базе → ответ. 3. Что бот умеет, что нет. 4. Как запустить MVP за выходные",
-      "signal_count": 1,
-      "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "I accidentally built myself an executive staff in ChatGPT",
-          "date": "2026-09-09",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1wbohy8/i_accidentally_built_myself_an_executive_staff_in/"
         }
       ]
     }
