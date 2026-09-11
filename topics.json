@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T06:06:34.606453+00:00",
-  "source_posts_analyzed": 533,
+  "generated_at": "2026-09-11T22:00:02.163723+00:00",
+  "source_posts_analyzed": 543,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 79,
+      "signal_count": 80,
       "evidence": [
         {
           "source": "r/artificial",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 62,
+      "signal_count": 63,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 30,
+      "signal_count": 31,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -99,7 +99,7 @@
         "Notion"
       ],
       "structure": "1. Что я сделал (конкретная задача). 2. Шаг 1–5 (скрины каждого шага). 3. Результат в цифрах. 4. Твоя следующая задача — вот с чего начать",
-      "signal_count": 15,
+      "signal_count": 16,
       "evidence": [
         {
           "source": "r/ChatGPT",
