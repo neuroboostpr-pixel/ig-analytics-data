@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T22:00:01.902083+00:00",
-  "source_posts_analyzed": 531,
+  "generated_at": "2026-09-11T06:06:34.606453+00:00",
+  "source_posts_analyzed": 533,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 78,
+      "signal_count": 79,
       "evidence": [
         {
           "source": "r/artificial",
@@ -244,33 +244,6 @@
       ]
     },
     {
-      "theme": "клей-между-инструментами",
-      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
-      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "",
-      "tools": [],
-      "structure": "",
-      "signal_count": 4,
-      "evidence": [
-        {
-          "source": "r/LocalLLaMA",
-          "title": "What's your biggest pain point with AI tooling right now?",
-          "date": "2026-07-26",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7h67o/whats_your_biggest_pain_point_with_ai_tooling/"
-        },
-        {
-          "source": "r/SideProject",
-          "title": "Built a memory layer so I stop re-explaining my project to every AI tool",
-          "date": "2026-08-08",
-          "relevance": 6,
-          "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
-        }
-      ]
-    },
-    {
       "theme": "ai-встречи",
       "title": "90% совещаний не нужно проводить. Остальные я больше не конспектирую вручную",
       "angle": "Предприниматель/менеджер тратит часы на встречи и потом ещё час на протокол. Granola/Fireflies делает транскрипт + action items автоматически. Claude превращает в задачи в CRM",
@@ -326,6 +299,33 @@
           "date": "2026-08-14",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1vnv4h1/a_browser_tab_manager_newtab_dashboard_and/"
+        }
+      ]
+    },
+    {
+      "theme": "клей-между-инструментами",
+      "title": "Я стал «клеем» между 5 ИИ-инструментами. Вот как это сломало мой рабочий день",
+      "angle": "PM/специалист переключается между Claude → Cursor → ChatGPT → теряет контекст. Решение: единая система, а не зоопарк",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "",
+      "tools": [],
+      "structure": "",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/SideProject",
+          "title": "Built a memory layer so I stop re-explaining my project to every AI tool",
+          "date": "2026-08-08",
+          "relevance": 6,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vj3t6m/built_a_memory_layer_so_i_stop_reexplaining_my/"
+        },
+        {
+          "source": "r/SideProject",
+          "title": "I built a tool that hands your conversation from one AI to another with a single word",
+          "date": "2026-08-10",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/SideProject/comments/1vknakj/i_built_a_tool_that_hands_your_conversation_from/"
         }
       ]
     },
@@ -389,6 +389,38 @@
       ]
     },
     {
+      "theme": "ai-hr-наём",
+      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
+      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Предприниматели",
+      "tools": [
+        "Claude",
+        "n8n",
+        "Airtable",
+        "Notion"
+      ],
+      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
+      "signal_count": 3,
+      "evidence": [
+        {
+          "source": "r/Entrepreneur",
+          "title": "A good employee will make or break your business.",
+          "date": "2026-09-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
+        },
+        {
+          "source": "r/Entrepreneur",
+          "title": "A good employee will make or break your business.",
+          "date": "2026-09-04",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
+        }
+      ]
+    },
+    {
       "theme": "агент-ночью",
       "title": "Пока я сплю, агент собирает данные, пишет отчёт и присылает его к 9 утра",
       "angle": "Предприниматель/менеджер начинает день с ручного сбора данных. Агент по расписанию: берёт данные из нужных источников → Claude анализирует → Telegram утром. Конкретный кейс",
@@ -417,38 +449,6 @@
           "date": "2026-09-01",
           "relevance": 5,
           "url": "https://www.reddit.com/r/SideProject/comments/1w3yl8j/outbidlol_made_100k_in_48_hours_i_built_the/"
-        }
-      ]
-    },
-    {
-      "theme": "ai-hr-наём",
-      "title": "Сократили цикл найма с 3 недель до 4 дней: как ИИ-скрининг работает на практике",
-      "angle": "Предприниматель тратит дни на просмотр резюме и первичные интервью. ИИ-связка: Claude скринит резюме по критериям — n8n рассылает тест — результаты в таблицу автоматически",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Предприниматели",
-      "tools": [
-        "Claude",
-        "n8n",
-        "Airtable",
-        "Notion"
-      ],
-      "structure": "1. Сколько времени уходит на найм вручную. 2. Три этапа где ИИ заменяет HR. 3. Конкретный промпт скрининга (привести пример). 4. Что нельзя делегировать",
-      "signal_count": 2,
-      "evidence": [
-        {
-          "source": "r/Entrepreneur",
-          "title": "A good employee will make or break your business.",
-          "date": "2026-09-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
-        },
-        {
-          "source": "r/Entrepreneur",
-          "title": "A good employee will make or break your business.",
-          "date": "2026-09-04",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/1w70vea/a_good_employee_will_make_or_break_your_business/"
         }
       ]
     },
