@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T22:00:02.163723+00:00",
-  "source_posts_analyzed": 543,
+  "generated_at": "2026-09-12T06:06:47.700539+00:00",
+  "source_posts_analyzed": 542,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 63,
+      "signal_count": 62,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -52,10 +52,10 @@
         },
         {
           "source": "r/ChatGPT",
-          "title": "Anyone switch from ChatGPT Plus to ChatGPT Go?",
-          "date": "2026-07-28",
+          "title": "it’s so scary how smart chatgpt is",
+          "date": "2026-07-31",
           "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v90luo/anyone_switch_from_chatgpt_plus_to_chatgpt_go/"
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vc30fi/its_so_scary_how_smart_chatgpt_is/"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 31,
+      "signal_count": 32,
       "evidence": [
         {
           "source": "r/ChatGPT",
