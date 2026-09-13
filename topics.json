@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T06:06:47.366669+00:00",
-  "source_posts_analyzed": 552,
+  "generated_at": "2026-09-13T22:00:02.557853+00:00",
+  "source_posts_analyzed": 561,
   "ideas": [
     {
       "theme": "автоматизация-продаж",
@@ -11,7 +11,7 @@
       "segment": "",
       "tools": [],
       "structure": "",
-      "signal_count": 80,
+      "signal_count": 82,
       "evidence": [
         {
           "source": "r/artificial",
@@ -41,7 +41,7 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 62,
+      "signal_count": 64,
       "evidence": [
         {
           "source": "r/ChatGPT",
@@ -162,7 +162,7 @@
         "Airtable"
       ],
       "structure": "1. Сколько стоит Zapier за год vs n8n self-hosted. 2. Схема workflow (скрин). 3. Три узла которые решают 80% рутины. 4. Как запустить за выходные без DevOps",
-      "signal_count": 7,
+      "signal_count": 8,
       "evidence": [
         {
           "source": "r/smallbusiness",
