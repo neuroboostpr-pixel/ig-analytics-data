@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:00:02.183829+00:00",
+  "generated_at": "2026-09-13T06:06:47.366669+00:00",
   "source_posts_analyzed": 552,
   "ideas": [
     {
@@ -41,21 +41,21 @@
         "ChatGPT"
       ],
       "structure": "1. Боль: клиент говорит «зачем платить». 2. Три вещи, которые ИИ не сделает за тебя. 3. Скрипт ответа дословно. 4. CTA: что делать дальше",
-      "signal_count": 63,
+      "signal_count": 62,
       "evidence": [
-        {
-          "source": "r/ChatGPT",
-          "title": "Anyone switch from ChatGPT Plus to ChatGPT Go?",
-          "date": "2026-07-28",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1v90luo/anyone_switch_from_chatgpt_plus_to_chatgpt_go/"
-        },
         {
           "source": "r/ChatGPT",
           "title": "it’s so scary how smart chatgpt is",
           "date": "2026-07-31",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vc30fi/its_so_scary_how_smart_chatgpt_is/"
+        },
+        {
+          "source": "r/ChatGPT",
+          "title": "How do I stop ChatGPT from triggering image generation when I only want prompt-writing help?",
+          "date": "2026-08-02",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vdm7wg/how_do_i_stop_chatgpt_from_triggering_image/"
         }
       ]
     },
@@ -181,6 +181,38 @@
       ]
     },
     {
+      "theme": "локальные-модели",
+      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
+      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
+      "format": "пост",
+      "cta": "КЛИЕНТЫ",
+      "segment": "Специалисты / фрилансеры",
+      "tools": [
+        "Ollama",
+        "LM Studio",
+        "Mistral",
+        "Llama 3"
+      ],
+      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
+      "signal_count": 7,
+      "evidence": [
+        {
+          "source": "r/ClaudeAI",
+          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
+          "date": "2026-08-13",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
+        },
+        {
+          "source": "r/LocalLLaMA",
+          "title": "Qwen3.8 27B on a 4080Super",
+          "date": "2026-08-16",
+          "relevance": 5,
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
+        }
+      ]
+    },
+    {
       "theme": "gamma-презентации",
       "title": "Забыл что такое PowerPoint: Gamma делает презентацию из текста за 3 минуты",
       "angle": "Эксперт/специалист тратит 4–6 часов на одну презентацию. Gamma + Claude убирают дизайн-работу. Конкретный кейс: питч для клиента из брифа за 15 минут",
@@ -208,38 +240,6 @@
           "date": "2026-08-08",
           "relevance": 5,
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vj0wzd/adding_laconic_instructions_to_opus_5s_system/"
-        }
-      ]
-    },
-    {
-      "theme": "локальные-модели",
-      "title": "Ollama на ноутбуке: когда локальная модель вместо облачной реально имеет смысл",
-      "angle": "Специалист/предприниматель работает с чувствительными данными клиентов или не хочет платить за API. Ollama — локальный запуск без интернета. Честный разбор: что тянет, что нет",
-      "format": "пост",
-      "cta": "КЛИЕНТЫ",
-      "segment": "Специалисты / фрилансеры",
-      "tools": [
-        "Ollama",
-        "LM Studio",
-        "Mistral",
-        "Llama 3"
-      ],
-      "structure": "1. Три сценария когда локальная модель оправдана. 2. Что умеет Ollama на MacBook M2 (тест). 3. Где облако всё равно выигрывает. 4. Как настроить за 10 минут",
-      "signal_count": 6,
-      "evidence": [
-        {
-          "source": "r/ClaudeAI",
-          "title": "Anyone tried voice coding with their agent? (Disclosure: I'm on the team that built one)",
-          "date": "2026-08-13",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vniii8/anyone_tried_voice_coding_with_their_agent/"
-        },
-        {
-          "source": "r/LocalLLaMA",
-          "title": "Qwen3.8 27B on a 4080Super",
-          "date": "2026-08-16",
-          "relevance": 5,
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqbvnv/qwen38_27b_on_a_4080super/"
         }
       ]
     },
